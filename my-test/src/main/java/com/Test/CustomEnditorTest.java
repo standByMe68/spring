@@ -8,7 +8,6 @@ import org.springframework.context.annotation.AnnotationConfigApplicationContext
 
 public class CustomEnditorTest {
 
-
 	public static void main(String[] args) {
 
 		/**
