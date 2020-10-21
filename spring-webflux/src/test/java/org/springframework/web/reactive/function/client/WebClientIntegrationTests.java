@@ -139,7 +139,7 @@ public class WebClientIntegrationTests {
 
 		Mono<String> result = this.webClient.get()
 				.uri("/greeting?name=Spring")
-				.header("X-Test-Header", "testvalue")
+				.header("X-com.Test-Header", "testvalue")
 				.retrieve()
 				.bodyToMono(String.class);
 
@@ -149,7 +149,7 @@ public class WebClientIntegrationTests {
 
 		expectRequestCount(1);
 		expectRequest(request -> {
-			assertEquals("testvalue", request.getHeader("X-Test-Header"));
+			assertEquals("testvalue", request.getHeader("X-com.Test-Header"));
 			assertEquals("*/*", request.getHeader(HttpHeaders.ACCEPT));
 			assertEquals("/greeting?name=Spring", request.getPath());
 		});
@@ -161,7 +161,7 @@ public class WebClientIntegrationTests {
 
 		Flux<String> result = this.webClient.get()
 				.uri("/greeting?name=Spring")
-				.header("X-Test-Header", "testvalue")
+				.header("X-com.Test-Header", "testvalue")
 				.exchange()
 				.flatMapMany(response -> response.bodyToFlux(String.class));
 
@@ -171,7 +171,7 @@ public class WebClientIntegrationTests {
 
 		expectRequestCount(1);
 		expectRequest(request -> {
-			assertEquals("testvalue", request.getHeader("X-Test-Header"));
+			assertEquals("testvalue", request.getHeader("X-com.Test-Header"));
 			assertEquals("*/*", request.getHeader(HttpHeaders.ACCEPT));
 			assertEquals("/greeting?name=Spring", request.getPath());
 		});

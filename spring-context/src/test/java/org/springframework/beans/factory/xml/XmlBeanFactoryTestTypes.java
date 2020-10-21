@@ -306,7 +306,7 @@ class DummyReferencer {
 
 
 /**
- * Test class for Spring's ability to create objects using static
+ * com.Test class for Spring's ability to create objects using static
  * factory methods, rather than constructors.
  *
  * @author Rod Johnson

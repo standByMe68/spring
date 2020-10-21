@@ -26,7 +26,7 @@ import org.springframework.web.cors.CorsConfiguration;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with a {@link CorsRegistry}.
+ * com.Test fixture with a {@link CorsRegistry}.
  *
  * @author Sebastien Deleuze
  */

@@ -41,7 +41,7 @@ import static org.junit.Assert.*;
 import static org.springframework.web.method.MvcAnnotationPredicates.*;
 
 /**
- * Test fixture with {@link RequestParamMapMethodArgumentResolver}.
+ * com.Test fixture with {@link RequestParamMapMethodArgumentResolver}.
  *
  * @author Arjen Poutsma
  * @author Rossen Stoyanchev

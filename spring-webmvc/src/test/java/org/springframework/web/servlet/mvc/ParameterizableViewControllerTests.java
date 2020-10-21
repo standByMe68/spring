@@ -29,7 +29,7 @@ import org.springframework.web.servlet.ModelAndView;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with a ParameterizableViewController.
+ * com.Test fixture with a ParameterizableViewController.
  *
  * @author Rossen Stoyanchev
  * @since 3.1.1

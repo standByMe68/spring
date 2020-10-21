@@ -36,7 +36,7 @@ import org.springframework.web.util.WebUtils;
 import static org.junit.Assert.*;
 
 /**
- * Test for {@link AbstractRequestLoggingFilter} and subclasses.
+ * com.Test for {@link AbstractRequestLoggingFilter} and subclasses.
  *
  * @author Arjen Poutsma
  * @author Juergen Hoeller

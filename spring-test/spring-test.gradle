@@ -92,7 +92,7 @@ task junit4(type: Test) {
 	useJUnit()
 	systemProperty("testGroups", project.properties.get("testGroups"))
 	scanForTestClasses = false
-	include(["**/*Tests.class", "**/*Test.class"])
+	include(["**/*Tests.class", "**/*com.Test.class"])
 	exclude(["**/Abstract*.class", "**/testng/**/*.*", "**/jupiter/**/*.*"])
 }
 
@@ -115,7 +115,7 @@ task testNG(type: Test) {
 	useTestNG()
 	systemProperty("testGroups", project.properties.get("testGroups"))
 	scanForTestClasses = false
-	include(["**/testng/**/*Tests.class", "**/testng/**/*Test.class"])
+	include(["**/testng/**/*Tests.class", "**/testng/**/*com.Test.class"])
 	// Show STD_OUT & STD_ERR of the test JVM(s) on the console:
 	// testLogging.showStandardStreams = true
 	// forkEvery 1

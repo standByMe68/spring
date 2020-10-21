@@ -55,6 +55,9 @@ public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContex
 	private Resource[] configResources;
 
 
+	static {
+		System.out.println(ClassPathXmlApplicationContext.class.getName());
+	}
 	/**
 	 * Create a new ClassPathXmlApplicationContext for bean-style configuration.
 	 * @see #setConfigLocation
@@ -139,6 +142,10 @@ public class ClassPathXmlApplicationContext extends AbstractXmlApplicationContex
 			throws BeansException {
 
 		super(parent);
+		/*这个值不能设置为false，不然会强制停止你的进程 并且会报以下错
+		*  BeanFactory not initialized or already closed - call 'refresh' before accessing beans via the ApplicationContext
+		 */
+		//refresh = false;
 		setConfigLocations(configLocations);
 		if (refresh) {
 			refresh();

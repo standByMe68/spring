@@ -30,7 +30,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNull;
 
 /**
- * Test fixture for {@link StompDecoder}.
+ * com.Test fixture for {@link StompDecoder}.
  *
  * @author Andy Wilkinson
  * @author Stephane Maldini

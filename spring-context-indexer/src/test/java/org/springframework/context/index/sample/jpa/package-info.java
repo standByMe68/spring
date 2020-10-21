@@ -15,7 +15,7 @@
  */
 
 /**
- * Test candidate for {@code package-info}.
+ * com.Test candidate for {@code package-info}.
  *
  * @author Stephane Nicoll
  */

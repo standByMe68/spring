@@ -24,7 +24,7 @@ import org.springframework.ui.ModelMap;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link ModelAndViewContainer}.
+ * com.Test fixture for {@link ModelAndViewContainer}.
  *
  * @author Rossen Stoyanchev
  * @since 3.1

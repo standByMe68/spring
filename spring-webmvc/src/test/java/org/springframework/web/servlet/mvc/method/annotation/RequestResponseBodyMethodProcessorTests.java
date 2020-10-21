@@ -73,7 +73,7 @@ import org.springframework.web.util.WebUtils;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for a {@link RequestResponseBodyMethodProcessor} with
+ * com.Test fixture for a {@link RequestResponseBodyMethodProcessor} with
  * actual delegation to {@link HttpMessageConverter} instances. Also see
  * {@link RequestResponseBodyMethodProcessorMockTests}.
  *

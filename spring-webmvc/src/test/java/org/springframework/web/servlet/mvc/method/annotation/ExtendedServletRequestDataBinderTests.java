@@ -31,7 +31,7 @@ import org.springframework.web.servlet.HandlerMapping;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link ExtendedServletRequestDataBinder}.
+ * com.Test fixture for {@link ExtendedServletRequestDataBinder}.
  *
  * @author Rossen Stoyanchev
  */

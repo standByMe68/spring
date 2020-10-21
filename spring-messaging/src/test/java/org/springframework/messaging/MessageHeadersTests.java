@@ -30,7 +30,7 @@ import org.springframework.util.SerializationTestUtils;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link MessageHeaders}.
+ * com.Test fixture for {@link MessageHeaders}.
  *
  * @author Rossen Stoyanchev
  * @author Gary Russell

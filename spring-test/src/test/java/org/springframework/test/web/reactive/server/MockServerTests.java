@@ -33,7 +33,7 @@ import static java.nio.charset.StandardCharsets.*;
 import static org.junit.Assert.*;
 
 /**
- * Test scenarios involving a mock server.
+ * com.Test scenarios involving a mock server.
  * @author Rossen Stoyanchev
  */
 public class MockServerTests {

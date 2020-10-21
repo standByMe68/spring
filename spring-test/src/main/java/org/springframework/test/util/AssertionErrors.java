@@ -20,7 +20,7 @@ import org.springframework.lang.Nullable;
 import org.springframework.util.ObjectUtils;
 
 /**
- * Test assertions that are independent of any third-party assertion library.
+ * com.Test assertions that are independent of any third-party assertion library.
  *
  * @author Lukas Krecan
  * @author Arjen Poutsma

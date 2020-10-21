@@ -45,7 +45,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 /**
- * Test for {@link org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupport}.
+ * com.Test for {@link org.springframework.web.socket.adapter.standard.ConvertingEncoderDecoderSupport}.
  *
  * @author Phillip Webb
  */

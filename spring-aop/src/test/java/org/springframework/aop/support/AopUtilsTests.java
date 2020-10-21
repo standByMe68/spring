@@ -73,7 +73,7 @@ public class AopUtilsTests {
 	}
 
 	/**
-	 * Test that when we serialize and deserialize various canonical instances
+	 * com.Test that when we serialize and deserialize various canonical instances
 	 * of AOP classes, they return the same instance, not a new instance
 	 * that's subverted the singleton construction limitation.
 	 */

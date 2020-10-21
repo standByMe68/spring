@@ -34,7 +34,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 import static org.junit.Assert.*;
 
 /**
- * Test case for {@link AbstractDispatcherServletInitializer}.
+ * com.Test case for {@link AbstractDispatcherServletInitializer}.
  *
  * @author Arjen Poutsma
  */

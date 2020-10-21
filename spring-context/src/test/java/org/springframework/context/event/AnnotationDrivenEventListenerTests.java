@@ -399,7 +399,7 @@ public class AnnotationDrivenEventListenerTests {
 			fail("An exception should have thrown");
 		}
 		catch (IllegalStateException e) {
-			assertEquals("Wrong exception", "Test exception", e.getMessage());
+			assertEquals("Wrong exception", "com.Test exception", e.getMessage());
 			this.eventCollector.assertEvent(listener, event);
 			this.eventCollector.assertTotalEventsCount(1);
 		}
@@ -723,7 +723,7 @@ public class AnnotationDrivenEventListenerTests {
 		public void handle(TestEvent event) {
 			collectEvent(event);
 			if ("fail".equals(event.msg)) {
-				throw new IllegalStateException("Test exception");
+				throw new IllegalStateException("com.Test exception");
 			}
 		}
 
@@ -733,7 +733,7 @@ public class AnnotationDrivenEventListenerTests {
 			collectEvent(event);
 			if ("fail".equals(event.content)) {
 				this.countDownLatch.countDown();
-				throw new IllegalStateException("Test exception");
+				throw new IllegalStateException("com.Test exception");
 			}
 		}
 	}

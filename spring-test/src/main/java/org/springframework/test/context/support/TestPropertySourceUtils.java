@@ -63,7 +63,7 @@ public abstract class TestPropertySourceUtils {
 	 * @since 4.1.5
 	 * @see #addInlinedPropertiesToEnvironment
 	 */
-	public static final String INLINED_PROPERTIES_PROPERTY_SOURCE_NAME = "Inlined Test Properties";
+	public static final String INLINED_PROPERTIES_PROPERTY_SOURCE_NAME = "Inlined com.Test Properties";
 
 	private static final Log logger = LogFactory.getLog(TestPropertySourceUtils.class);
 

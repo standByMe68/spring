@@ -125,7 +125,7 @@ public class DefaultMessageListenerContainerTests {
 		try {
 			ConnectionFactory connectionFactory = mock(ConnectionFactory.class);
 			given(connectionFactory.createConnection()).will(invocation -> {
-				throw new JMSException("Test exception");
+				throw new JMSException("com.Test exception");
 			});
 			return connectionFactory;
 		}
@@ -143,7 +143,7 @@ public class DefaultMessageListenerContainerTests {
 				public Object answer(InvocationOnMock invocation) throws Throwable {
 					currentAttempts++;
 					if (currentAttempts <= failingAttempts) {
-						throw new JMSException("Test exception (attempt " + currentAttempts + ")");
+						throw new JMSException("com.Test exception (attempt " + currentAttempts + ")");
 					}
 					else {
 						return mock(Connection.class);

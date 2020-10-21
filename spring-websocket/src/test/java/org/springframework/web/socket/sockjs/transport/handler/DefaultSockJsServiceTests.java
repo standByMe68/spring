@@ -44,7 +44,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link DefaultSockJsService}.
+ * com.Test fixture for {@link DefaultSockJsService}.
  *
  * @author Rossen Stoyanchev
  * @author Sebastien Deleuze

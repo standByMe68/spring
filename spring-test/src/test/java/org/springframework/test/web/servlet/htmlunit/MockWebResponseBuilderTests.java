@@ -97,7 +97,7 @@ public class MockWebResponseBuilderTests {
 	@Test
 	public void buildResponseHeaders() throws Exception {
 		this.response.addHeader("Content-Type", "text/html");
-		this.response.addHeader("X-Test", "value");
+		this.response.addHeader("X-com.Test", "value");
 		Cookie cookie = new Cookie("cookieA", "valueA");
 		cookie.setDomain("domain");
 		cookie.setPath("/path");
@@ -113,7 +113,7 @@ public class MockWebResponseBuilderTests {
 		assertThat(header.getName(), equalTo("Content-Type"));
 		assertThat(header.getValue(), equalTo("text/html"));
 		header = responseHeaders.get(1);
-		assertThat(header.getName(), equalTo("X-Test"));
+		assertThat(header.getName(), equalTo("X-com.Test"));
 		assertThat(header.getValue(), equalTo("value"));
 		header = responseHeaders.get(2);
 		assertThat(header.getName(), equalTo("Set-Cookie"));

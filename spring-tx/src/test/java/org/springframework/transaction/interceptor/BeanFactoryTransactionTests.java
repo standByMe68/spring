@@ -46,7 +46,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test cases for AOP transaction management.
+ * com.Test cases for AOP transaction management.
  *
  * @author Rod Johnson
  * @author Juergen Hoeller
@@ -198,7 +198,7 @@ public class BeanFactoryTransactionTests {
 	}
 
 	/**
-	 * Test that we can set the target to a dynamic TargetSource.
+	 * com.Test that we can set the target to a dynamic TargetSource.
 	 */
 	@Test
 	public void testDynamicTargetSource() {

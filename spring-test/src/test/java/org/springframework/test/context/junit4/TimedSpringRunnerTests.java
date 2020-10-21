@@ -34,7 +34,7 @@ import static org.springframework.test.context.junit4.JUnitTestingUtils.*;
  * Verifies proper handling of the following in conjunction with the
  * {@link SpringRunner}:
  * <ul>
- * <li>JUnit's {@link Test#timeout() @Test(timeout=...)}</li>
+ * <li>JUnit's {@link Test#timeout() @com.Test(timeout=...)}</li>
  * <li>Spring's {@link Timed @Timed}</li>
  * </ul>
  *

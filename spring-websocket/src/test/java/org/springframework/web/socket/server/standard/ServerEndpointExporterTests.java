@@ -34,7 +34,7 @@ import org.springframework.web.context.support.AnnotationConfigWebApplicationCon
 import static org.mockito.Mockito.*;
 
 /**
- * Test fixture for {@link ServerEndpointExporter}.
+ * com.Test fixture for {@link ServerEndpointExporter}.
  *
  * @author Rossen Stoyanchev
  * @author Juergen Hoeller

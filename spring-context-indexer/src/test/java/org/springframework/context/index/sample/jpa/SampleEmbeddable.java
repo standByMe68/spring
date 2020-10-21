@@ -19,7 +19,7 @@ package org.springframework.context.index.sample.jpa;
 import javax.persistence.Embeddable;
 
 /**
- * Test candidate for {@link Embeddable}.
+ * com.Test candidate for {@link Embeddable}.
  *
  * @author Stephane Nicoll
  */

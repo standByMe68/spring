@@ -42,7 +42,7 @@ import static org.junit.Assert.assertTrue;
 import static org.springframework.web.method.MvcAnnotationPredicates.matrixAttribute;
 
 /**
- * Test fixture with {@link MatrixVariableMethodArgumentResolver}.
+ * com.Test fixture with {@link MatrixVariableMethodArgumentResolver}.
  * @author Rossen Stoyanchev
  */
 public class MatrixVariablesMethodArgumentResolverTests {

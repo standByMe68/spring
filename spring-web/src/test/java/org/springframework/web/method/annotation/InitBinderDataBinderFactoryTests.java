@@ -42,7 +42,7 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertSame;
 
 /**
- * Test fixture with {@link InitBinderDataBinderFactory}.
+ * com.Test fixture with {@link InitBinderDataBinderFactory}.
  *
  * @author Rossen Stoyanchev
  */

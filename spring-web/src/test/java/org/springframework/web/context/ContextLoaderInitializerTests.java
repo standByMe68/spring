@@ -31,7 +31,7 @@ import org.springframework.web.context.support.WebApplicationContextUtils;
 import static org.junit.Assert.*;
 
 /**
- * Test case for {@link AbstractContextLoaderInitializer}.
+ * com.Test case for {@link AbstractContextLoaderInitializer}.
  *
  * @author Arjen Poutsma
  */

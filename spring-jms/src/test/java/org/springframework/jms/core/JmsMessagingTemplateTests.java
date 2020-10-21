@@ -238,7 +238,7 @@ public class JmsMessagingTemplateTests {
 			@Override
 			public javax.jms.Message toMessage(Object object, Session session)
 					throws JMSException, org.springframework.jms.support.converter.MessageConversionException {
-				throw new org.springframework.jms.support.converter.MessageConversionException("Test exception");
+				throw new org.springframework.jms.support.converter.MessageConversionException("com.Test exception");
 			}
 		});
 
@@ -246,7 +246,7 @@ public class JmsMessagingTemplateTests {
 		verify(this.jmsTemplate).send(eq("myQueue"), this.messageCreator.capture());
 
 		this.thrown.expect(org.springframework.messaging.converter.MessageConversionException.class);
-		this.thrown.expectMessage(new StringContains("Test exception"));
+		this.thrown.expectMessage(new StringContains("com.Test exception"));
 		this.messageCreator.getValue().createMessage(mock(Session.class));
 	}
 

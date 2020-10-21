@@ -40,7 +40,7 @@ public class DefaultBootstrapContext implements BootstrapContext {
 	 * transparent interaction with the {@code ContextCache}; never {@code null}
 	 */
 	public DefaultBootstrapContext(Class<?> testClass, CacheAwareContextLoaderDelegate cacheAwareContextLoaderDelegate) {
-		Assert.notNull(testClass, "Test class must not be null");
+		Assert.notNull(testClass, "com.Test class must not be null");
 		Assert.notNull(cacheAwareContextLoaderDelegate, "CacheAwareContextLoaderDelegate must not be null");
 		this.testClass = testClass;
 		this.cacheAwareContextLoaderDelegate = cacheAwareContextLoaderDelegate;

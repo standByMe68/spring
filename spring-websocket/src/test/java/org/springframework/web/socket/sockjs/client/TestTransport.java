@@ -35,7 +35,7 @@ import static org.mockito.Mockito.mock;
 import static org.mockito.Mockito.verify;
 
 /**
- * Test SockJS Transport.
+ * com.Test SockJS Transport.
  *
  * @author Rossen Stoyanchev
  */

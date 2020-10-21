@@ -70,7 +70,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 /**
- * Test cases for {@link Jackson2ObjectMapperFactoryBean}.
+ * com.Test cases for {@link Jackson2ObjectMapperFactoryBean}.
  *
  * @author Dmitry Katsubo
  * @author Brian Clozel

@@ -27,7 +27,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Test suite for {@link FastByteArrayOutputStream}.
+ * com.Test suite for {@link FastByteArrayOutputStream}.
  *
  * @author Craig Andrews
  */

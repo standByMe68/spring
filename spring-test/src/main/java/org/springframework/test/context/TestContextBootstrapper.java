@@ -88,7 +88,7 @@ public interface TestContextBootstrapper {
 	 * <li>Active bean definition profiles declared via {@link ActiveProfiles @ActiveProfiles}</li>
 	 * <li>{@linkplain org.springframework.context.ApplicationContextInitializer
 	 * Context initializers} declared via {@link ContextConfiguration#initializers}</li>
-	 * <li>Test property sources declared via {@link TestPropertySource @TestPropertySource}</li>
+	 * <li>com.Test property sources declared via {@link TestPropertySource @TestPropertySource}</li>
 	 * </ul>
 	 * <p>Consult the Javadoc for the aforementioned annotations for details on
 	 * the required semantics.

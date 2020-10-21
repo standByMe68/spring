@@ -22,7 +22,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link TextMessage}.
+ * com.Test fixture for {@link TextMessage}.
  *
  * @author Shinobu Aoki
  * @author Juergen Hoeller

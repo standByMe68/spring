@@ -26,7 +26,7 @@ import org.springframework.core.MethodParameter;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link HandlerMethodArgumentResolverComposite}.
+ * com.Test fixture with {@link HandlerMethodArgumentResolverComposite}.
  *
  * @author Rossen Stoyanchev
  */

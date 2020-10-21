@@ -48,7 +48,7 @@ import org.springframework.protobuf.SecondMsg;
 import org.springframework.util.MimeType;
 
 /**
- * Test scenarios for data buffer leaks.
+ * com.Test scenarios for data buffer leaks.
  * @author Rossen Stoyanchev
  */
 public class CancelWithoutDemandCodecTests {

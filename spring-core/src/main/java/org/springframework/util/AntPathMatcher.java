@@ -424,7 +424,7 @@ public class AntPathMatcher implements PathMatcher {
 	}
 
 	/**
-	 * Test whether or not a string matches against a pattern.
+	 * com.Test whether or not a string matches against a pattern.
 	 * @param pattern the pattern to match against (never {@code null})
 	 * @param str the String which must be matched against the pattern (never {@code null})
 	 * @return {@code true} if the string matches against the pattern, or {@code false} otherwise

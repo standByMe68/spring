@@ -48,7 +48,7 @@ import static org.junit.Assert.*;
 public class ConfigurationClassWithPlaceholderConfigurerBeanTests {
 
 	/**
-	 * Test which proves that a non-static property placeholder bean cannot be declared
+	 * com.Test which proves that a non-static property placeholder bean cannot be declared
 	 * in the same configuration class that has a {@code @Value} field in need of
 	 * placeholder replacement. It's an obvious chicken-and-egg issue.
 	 *

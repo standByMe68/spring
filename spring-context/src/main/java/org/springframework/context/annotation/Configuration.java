@@ -364,7 +364,7 @@ import org.springframework.stereotype.Component;
  *
  *     &#064;Autowired DataSource dataSource;
  *
- *     &#064;Test
+ *     &#064;com.Test
  *     public void test() {
  *         // assertions against myBean ...
  *     }

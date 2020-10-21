@@ -23,7 +23,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Test-specific annotation to indicate that a test method has to finish
+ * com.Test-specific annotation to indicate that a test method has to finish
  * execution in a {@linkplain #millis() specified time period}.
  *
  * <p>If the text execution takes longer than the specified time period, then

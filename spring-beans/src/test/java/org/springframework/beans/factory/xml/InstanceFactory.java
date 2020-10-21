@@ -19,7 +19,7 @@ package org.springframework.beans.factory.xml;
 import org.springframework.tests.sample.beans.TestBean;
 
 /**
- * Test class for Spring's ability to create objects using
+ * com.Test class for Spring's ability to create objects using
  * static factory methods, rather than constructors.
  *
  * @author Rod Johnson

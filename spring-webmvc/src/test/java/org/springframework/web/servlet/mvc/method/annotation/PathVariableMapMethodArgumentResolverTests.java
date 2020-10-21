@@ -35,7 +35,7 @@ import org.springframework.web.servlet.HandlerMapping;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link PathVariableMapMethodArgumentResolver}.
+ * com.Test fixture with {@link PathVariableMapMethodArgumentResolver}.
  *
  * @author Rossen Stoyanchev
  */

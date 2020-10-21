@@ -634,7 +634,7 @@ public class AnnotatedElementUtilsTests {
 		assertNotNull(excludeFilters);
 
 		List<String> patterns = stream(excludeFilters).map(Filter::pattern).collect(toList());
-		assertEquals(asList("*Test", "*Tests"), patterns);
+		assertEquals(asList("*com.Test", "*Tests"), patterns);
 	}
 
 	/**
@@ -1107,7 +1107,7 @@ public class AnnotatedElementUtilsTests {
 		String pattern();
 	}
 
-	@ComponentScan(excludeFilters = {@Filter(pattern = "*Test"), @Filter(pattern = "*Tests")})
+	@ComponentScan(excludeFilters = {@Filter(pattern = "*com.Test"), @Filter(pattern = "*Tests")})
 	@Retention(RetentionPolicy.RUNTIME)
 	@interface TestComponentScan {
 

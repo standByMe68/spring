@@ -53,7 +53,7 @@ import static org.mockito.BDDMockito.*;
 import static org.springframework.web.method.MvcAnnotationPredicates.*;
 
 /**
- * Test fixture with {@link RequestParamMethodArgumentResolver}.
+ * com.Test fixture with {@link RequestParamMethodArgumentResolver}.
  *
  * @author Arjen Poutsma
  * @author Rossen Stoyanchev

@@ -24,7 +24,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link WebSocketExtension}
+ * com.Test fixture for {@link WebSocketExtension}
  * @author Brian Clozel
  */
 public class WebSocketExtensionTests {

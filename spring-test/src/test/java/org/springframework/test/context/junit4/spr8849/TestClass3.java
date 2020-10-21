@@ -29,7 +29,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 import static org.junit.Assert.*;
 
 /**
- * This name of this class intentionally does not end with "Test" or "Tests"
+ * This name of this class intentionally does not end with "com.Test" or "Tests"
  * since it should only be run as part of the test suite: {@link Spr8849Tests}.
  *
  * @author Sam Brannen

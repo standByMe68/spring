@@ -69,7 +69,7 @@ public abstract class AbstractBeanFactoryTests {
 	}
 
 	/**
-	 * Test that InitializingBean objects receive the afterPropertiesSet() callback
+	 * com.Test that InitializingBean objects receive the afterPropertiesSet() callback
 	 */
 	@Test
 	public void initializingBeanCallback() {
@@ -80,7 +80,7 @@ public abstract class AbstractBeanFactoryTests {
 	}
 
 	/**
-	 * Test that InitializingBean/BeanFactoryAware/DisposableBean objects receive the
+	 * com.Test that InitializingBean/BeanFactoryAware/DisposableBean objects receive the
 	 * afterPropertiesSet() callback before BeanFactoryAware callbacks
 	 */
 	@Test

@@ -32,7 +32,7 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link org.springframework.web.method.annotation.ModelMethodProcessor}.
+ * com.Test fixture with {@link org.springframework.web.method.annotation.ModelMethodProcessor}.
  *
  * @author Rossen Stoyanchev
  */

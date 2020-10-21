@@ -765,9 +765,9 @@ public class DefaultListableBeanFactoryTests {
 		assertTrue("Array length == 1", names.length == 1);
 		assertTrue("0th element == test", names[0].equals("test"));
 		TestBean tb = (TestBean) lbf.getBean("test");
-		assertTrue("Test is non null", tb != null);
-		assertTrue("Test bean name is Tony", "Tony".equals(tb.getName()));
-		assertTrue("Test bean age is 48", tb.getAge() == 48);
+		assertTrue("com.Test is non null", tb != null);
+		assertTrue("com.Test bean name is Tony", "Tony".equals(tb.getName()));
+		assertTrue("com.Test bean age is 48", tb.getAge() == 48);
 	}
 
 	@Test
@@ -2874,7 +2874,7 @@ public class DefaultListableBeanFactoryTests {
 	}
 
 	/**
-	 * Test that by-type bean lookup caching is working effectively by searching for a
+	 * com.Test that by-type bean lookup caching is working effectively by searching for a
 	 * bean of type B 10K times within a container having 1K additional beans of type A.
 	 * Prior to by-type caching, each bean lookup would traverse the entire container
 	 * (all 1001 beans), performing expensive assignability checks, etc. Now these

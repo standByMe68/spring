@@ -41,7 +41,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link HttpMessageConverter}.
+ * com.Test fixture for {@link HttpMessageConverter}.
  *
  * @author Arjen Poutsma
  * @author Brian Clozel

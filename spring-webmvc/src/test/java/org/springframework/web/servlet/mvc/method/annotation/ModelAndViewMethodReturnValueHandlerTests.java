@@ -33,7 +33,7 @@ import org.springframework.web.servlet.view.RedirectView;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link ModelAndViewMethodReturnValueHandler}.
+ * com.Test fixture with {@link ModelAndViewMethodReturnValueHandler}.
  *
  * @author Rossen Stoyanchev
  */

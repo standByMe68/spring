@@ -45,7 +45,7 @@ import static org.mockito.BDDMockito.*;
 public class CciLocalTransactionTests {
 
 	/**
-	 * Test if a transaction ( begin / commit ) is executed on the
+	 * com.Test if a transaction ( begin / commit ) is executed on the
 	 * LocalTransaction when CciLocalTransactionManager is specified as
 	 * transaction manager.
 	 */
@@ -84,7 +84,7 @@ public class CciLocalTransactionTests {
 	}
 
 	/**
-	 * Test if a transaction ( begin / rollback ) is executed on the
+	 * com.Test if a transaction ( begin / rollback ) is executed on the
 	 * LocalTransaction when CciLocalTransactionManager is specified as
 	 * transaction manager and a non-checked exception is thrown.
 	 */

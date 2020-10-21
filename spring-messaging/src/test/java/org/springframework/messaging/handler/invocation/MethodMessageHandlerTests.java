@@ -46,7 +46,7 @@ import org.springframework.util.ReflectionUtils.MethodFilter;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for
+ * com.Test fixture for
  * {@link org.springframework.messaging.handler.invocation.AbstractMethodMessageHandler}.
  *
  * @author Brian Clozel

@@ -35,7 +35,7 @@ import org.springframework.messaging.support.MessageBuilder;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link DestinationVariableMethodArgumentResolver} tests.
+ * com.Test fixture for {@link DestinationVariableMethodArgumentResolver} tests.
  *
  * @author Brian Clozel
  */

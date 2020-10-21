@@ -85,7 +85,7 @@ public class MethodInvocationTests extends AbstractExpressionTests {
 
 	@Test
 	public void testMethodThrowingException_SPR6760() {
-		// Test method on inventor: throwException()
+		// com.Test method on inventor: throwException()
 		// On 1 it will throw an IllegalArgumentException
 		// On 2 it will throw a RuntimeException
 		// On 3 it will exit normally
@@ -154,7 +154,7 @@ public class MethodInvocationTests extends AbstractExpressionTests {
 	 */
 	@Test
 	public void testMethodThrowingException_SPR6941() {
-		// Test method on inventor: throwException()
+		// com.Test method on inventor: throwException()
 		// On 1 it will throw an IllegalArgumentException
 		// On 2 it will throw a RuntimeException
 		// On 3 it will exit normally
@@ -178,7 +178,7 @@ public class MethodInvocationTests extends AbstractExpressionTests {
 
 	@Test
 	public void testMethodThrowingException_SPR6941_2() {
-		// Test method on inventor: throwException()
+		// com.Test method on inventor: throwException()
 		// On 1 it will throw an IllegalArgumentException
 		// On 2 it will throw a RuntimeException
 		// On 3 it will exit normally

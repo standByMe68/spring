@@ -84,7 +84,7 @@ public class AnnotationTransactionAttributeSourceTests {
 	}
 
 	/**
-	 * Test the important case where the invocation is on a proxied interface method
+	 * com.Test the important case where the invocation is on a proxied interface method
 	 * but the attribute is defined on the target class.
 	 */
 	@Test
@@ -100,7 +100,7 @@ public class AnnotationTransactionAttributeSourceTests {
 	}
 
 	/**
-	 * Test the important case where the invocation is on a proxied interface method
+	 * com.Test the important case where the invocation is on a proxied interface method
 	 * but the attribute is defined on the target class.
 	 */
 	@Test
@@ -120,7 +120,7 @@ public class AnnotationTransactionAttributeSourceTests {
 	}
 
 	/**
-	 * Test case where attribute is on the interface method.
+	 * com.Test case where attribute is on the interface method.
 	 */
 	@Test
 	public void transactionAttributeDeclaredOnInterfaceMethodOnly() throws Exception {
@@ -134,7 +134,7 @@ public class AnnotationTransactionAttributeSourceTests {
 	}
 
 	/**
-	 * Test that when an attribute exists on both class and interface, class takes precedence.
+	 * com.Test that when an attribute exists on both class and interface, class takes precedence.
 	 */
 	@Test
 	public void transactionAttributeOnTargetClassMethodOverridesAttributeOnInterfaceMethod() throws Exception {
@@ -184,7 +184,7 @@ public class AnnotationTransactionAttributeSourceTests {
 	}
 
 	/**
-	 * Test that transaction attribute is inherited from class
+	 * com.Test that transaction attribute is inherited from class
 	 * if not specified on method.
 	 */
 	@Test

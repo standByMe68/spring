@@ -47,38 +47,38 @@ public class ProfileValueUtilsTests {
 	}
 
 	private void assertClassIsEnabled(Class<?> testClass) throws Exception {
-		assertTrue("Test class [" + testClass + "] should be enabled.",
+		assertTrue("com.Test class [" + testClass + "] should be enabled.",
 			ProfileValueUtils.isTestEnabledInThisEnvironment(testClass));
 	}
 
 	private void assertClassIsDisabled(Class<?> testClass) throws Exception {
-		assertFalse("Test class [" + testClass + "] should be disabled.",
+		assertFalse("com.Test class [" + testClass + "] should be disabled.",
 			ProfileValueUtils.isTestEnabledInThisEnvironment(testClass));
 	}
 
 	private void assertMethodIsEnabled(String methodName, Class<?> testClass) throws Exception {
 		Method testMethod = testClass.getMethod(methodName);
-		assertTrue("Test method [" + testMethod + "] should be enabled.",
+		assertTrue("com.Test method [" + testMethod + "] should be enabled.",
 			ProfileValueUtils.isTestEnabledInThisEnvironment(testMethod, testClass));
 	}
 
 	private void assertMethodIsDisabled(String methodName, Class<?> testClass) throws Exception {
 		Method testMethod = testClass.getMethod(methodName);
-		assertFalse("Test method [" + testMethod + "] should be disabled.",
+		assertFalse("com.Test method [" + testMethod + "] should be disabled.",
 			ProfileValueUtils.isTestEnabledInThisEnvironment(testMethod, testClass));
 	}
 
 	private void assertMethodIsEnabled(ProfileValueSource profileValueSource, String methodName, Class<?> testClass)
 			throws Exception {
 		Method testMethod = testClass.getMethod(methodName);
-		assertTrue("Test method [" + testMethod + "] should be enabled for ProfileValueSource [" + profileValueSource
+		assertTrue("com.Test method [" + testMethod + "] should be enabled for ProfileValueSource [" + profileValueSource
 				+ "].", ProfileValueUtils.isTestEnabledInThisEnvironment(profileValueSource, testMethod, testClass));
 	}
 
 	private void assertMethodIsDisabled(ProfileValueSource profileValueSource, String methodName, Class<?> testClass)
 			throws Exception {
 		Method testMethod = testClass.getMethod(methodName);
-		assertFalse("Test method [" + testMethod + "] should be disabled for ProfileValueSource [" + profileValueSource
+		assertFalse("com.Test method [" + testMethod + "] should be disabled for ProfileValueSource [" + profileValueSource
 				+ "].", ProfileValueUtils.isTestEnabledInThisEnvironment(profileValueSource, testMethod, testClass));
 	}
 

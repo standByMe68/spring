@@ -35,7 +35,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 /**
- * Test for {@link Conditional} beans.
+ * com.Test for {@link Conditional} beans.
  *
  * @author Phillip Webb
  * @author Juergen Hoeller

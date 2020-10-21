@@ -70,8 +70,8 @@ import org.springframework.util.ReflectionUtils;
  * implementations.)</em>
  *
  * <ul>
- * <li>{@link Test#expected() @Test(expected=...)}</li>
- * <li>{@link Test#timeout() @Test(timeout=...)}</li>
+ * <li>{@link Test#expected() @com.Test(expected=...)}</li>
+ * <li>{@link Test#timeout() @com.Test(timeout=...)}</li>
  * <li>{@link org.springframework.test.annotation.Timed @Timed}</li>
  * <li>{@link org.springframework.test.annotation.Repeat @Repeat}</li>
  * <li>{@link Ignore @Ignore}</li>
@@ -342,7 +342,7 @@ public class SpringJUnit4ClassRunner extends BlockJUnit4ClassRunner {
 	/**
 	 * Get the {@code exception} that the supplied {@linkplain FrameworkMethod
 	 * test method} is expected to throw.
-	 * <p>Supports JUnit's {@link Test#expected() @Test(expected=...)} annotation.
+	 * <p>Supports JUnit's {@link Test#expected() @com.Test(expected=...)} annotation.
 	 * <p>Can be overridden by subclasses.
 	 * @return the expected exception, or {@code null} if none was specified
 	 */
@@ -357,7 +357,7 @@ public class SpringJUnit4ClassRunner extends BlockJUnit4ClassRunner {
 	 * {@link BlockJUnit4ClassRunner#withPotentialTimeout(FrameworkMethod, Object, Statement)}
 	 * but with additional support for Spring's {@code @Timed} annotation.
 	 * <p>Supports both Spring's {@link org.springframework.test.annotation.Timed @Timed}
-	 * and JUnit's {@link Test#timeout() @Test(timeout=...)} annotations, but not both
+	 * and JUnit's {@link Test#timeout() @com.Test(timeout=...)} annotations, but not both
 	 * simultaneously.
 	 * @return either a {@link SpringFailOnTimeout}, a {@link FailOnTimeout},
 	 * or the supplied {@link Statement} as appropriate
@@ -374,8 +374,8 @@ public class SpringJUnit4ClassRunner extends BlockJUnit4ClassRunner {
 		long springTimeout = getSpringTimeout(frameworkMethod);
 		long junitTimeout = getJUnitTimeout(frameworkMethod);
 		if (springTimeout > 0 && junitTimeout > 0) {
-			String msg = String.format("Test method [%s] has been configured with Spring's @Timed(millis=%s) and " +
-							"JUnit's @Test(timeout=%s) annotations, but only one declaration of a 'timeout' is " +
+			String msg = String.format("com.Test method [%s] has been configured with Spring's @Timed(millis=%s) and " +
+							"JUnit's @com.Test(timeout=%s) annotations, but only one declaration of a 'timeout' is " +
 							"permitted per test method.", frameworkMethod.getMethod(), springTimeout, junitTimeout);
 			logger.error(msg);
 			throw new IllegalStateException(msg);
@@ -394,7 +394,7 @@ public class SpringJUnit4ClassRunner extends BlockJUnit4ClassRunner {
 	}
 
 	/**
-	 * Retrieve the configured JUnit {@code timeout} from the {@link Test @Test}
+	 * Retrieve the configured JUnit {@code timeout} from the {@link Test @com.Test}
 	 * annotation on the supplied {@linkplain FrameworkMethod test method}.
 	 * @return the timeout, or {@code 0} if none was specified
 	 */

@@ -34,7 +34,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link TilesView}.
+ * com.Test fixture for {@link TilesView}.
  *
  * @author mick semb wever
  * @author Sebastien Deleuze

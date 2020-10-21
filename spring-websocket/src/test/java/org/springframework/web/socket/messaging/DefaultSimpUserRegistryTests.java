@@ -36,7 +36,7 @@ import org.springframework.web.socket.CloseStatus;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for
+ * com.Test fixture for
  * {@link DefaultSimpUserRegistry}
  *
  * @author Rossen Stoyanchev

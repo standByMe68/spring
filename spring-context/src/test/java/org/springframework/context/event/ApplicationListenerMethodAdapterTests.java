@@ -226,7 +226,7 @@ public class ApplicationListenerMethodAdapterTests extends AbstractApplicationEv
 		GenericTestEvent<String> event = createGenericTestEvent("fail");
 
 		this.thrown.expect(IllegalStateException.class);
-		this.thrown.expectMessage("Test exception");
+		this.thrown.expectMessage("com.Test exception");
 		this.thrown.expectCause(is((Throwable) isNull()));
 		invokeListener(method, event);
 	}
@@ -421,14 +421,14 @@ public class ApplicationListenerMethodAdapterTests extends AbstractApplicationEv
 		@EventListener
 		public void generateRuntimeException(GenericTestEvent<String> event) {
 			if ("fail".equals(event.getPayload())) {
-				throw new IllegalStateException("Test exception");
+				throw new IllegalStateException("com.Test exception");
 			}
 		}
 
 		@EventListener
 		public void generateCheckedException(GenericTestEvent<String> event) throws IOException {
 			if ("fail".equals(event.getPayload())) {
-				throw new IOException("Test exception");
+				throw new IOException("com.Test exception");
 			}
 		}
 	}

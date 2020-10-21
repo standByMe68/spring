@@ -29,7 +29,7 @@ import static org.mockito.Mockito.verifyNoMoreInteractions;
 import static org.mockito.Mockito.when;
 
 /**
- * Test fixture with {@link HandlerMethodReturnValueHandlerComposite}.
+ * com.Test fixture with {@link HandlerMethodReturnValueHandlerComposite}.
  *
  * @author Rossen Stoyanchev
  */

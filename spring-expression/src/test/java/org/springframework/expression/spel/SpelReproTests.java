@@ -644,7 +644,7 @@ public class SpelReproTests extends AbstractExpressionTests {
 	}
 
 	/**
-	 * Test whether {@link ReflectiveMethodResolver} follows Java Method Invocation
+	 * com.Test whether {@link ReflectiveMethodResolver} follows Java Method Invocation
 	 * Conversion order. And more precisely that widening reference conversion is 'higher'
 	 * than a unboxing conversion.
 	 */
@@ -699,7 +699,7 @@ public class SpelReproTests extends AbstractExpressionTests {
 	}
 
 	/**
-	 * Test whether {@link ReflectiveMethodResolver} handles Widening Primitive Conversion. That's passing an 'int' to a
+	 * com.Test whether {@link ReflectiveMethodResolver} handles Widening Primitive Conversion. That's passing an 'int' to a
 	 * method accepting 'long' is ok.
 	 */
 	@Test
@@ -889,7 +889,7 @@ public class SpelReproTests extends AbstractExpressionTests {
 	}
 
 	/**
-	 * Test the ability to subclass the ReflectiveMethodResolver and change how it
+	 * com.Test the ability to subclass the ReflectiveMethodResolver and change how it
 	 * determines the set of methods for a type.
 	 */
 	@Test

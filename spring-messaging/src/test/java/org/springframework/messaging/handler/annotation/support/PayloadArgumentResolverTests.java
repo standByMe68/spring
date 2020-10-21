@@ -43,7 +43,7 @@ import org.springframework.validation.annotation.Validated;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link PayloadArgumentResolver}.
+ * com.Test fixture for {@link PayloadArgumentResolver}.
  *
  * @author Rossen Stoyanchev
  * @author Brian Clozel

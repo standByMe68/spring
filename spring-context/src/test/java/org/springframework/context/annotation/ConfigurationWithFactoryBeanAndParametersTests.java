@@ -26,7 +26,7 @@ import org.springframework.context.ApplicationContext;
 import static org.junit.Assert.*;
 
 /**
- * Test case cornering the bug initially raised with SPR-8762, in which a
+ * com.Test case cornering the bug initially raised with SPR-8762, in which a
  * NullPointerException would be raised if a FactoryBean-returning @Bean method also
  * accepts parameters
  *

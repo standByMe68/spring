@@ -29,7 +29,7 @@ import org.springframework.web.socket.WebSocketHandler;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link org.springframework.web.socket.adapter.jetty.JettyWebSocketHandlerAdapter}.
+ * com.Test fixture for {@link org.springframework.web.socket.adapter.jetty.JettyWebSocketHandlerAdapter}.
  *
  * @author Rossen Stoyanchev
  */

@@ -70,6 +70,10 @@ public abstract class AbstractRefreshableApplicationContext extends AbstractAppl
 	@Nullable
 	private Boolean allowCircularReferences;
 
+	static {
+		System.out.println(AbstractRefreshableApplicationContext.class.getName());
+	}
+
 	/** Bean factory for this context. */
 	@Nullable
 	private DefaultListableBeanFactory beanFactory;
@@ -122,10 +126,14 @@ public abstract class AbstractRefreshableApplicationContext extends AbstractAppl
 	 */
 	@Override
 	protected final void refreshBeanFactory() throws BeansException {
+		/**
+		 * 如果已经存在beanFactory就清除所有的bean并且关闭当前bean工厂
+		 */
 		if (hasBeanFactory()) {
 			destroyBeans();
 			closeBeanFactory();
 		}
+		//创建一个bean工厂
 		try {
 			DefaultListableBeanFactory beanFactory = createBeanFactory();
 			beanFactory.setSerializationId(getId());
@@ -173,6 +181,7 @@ public abstract class AbstractRefreshableApplicationContext extends AbstractAppl
 	@Override
 	public final ConfigurableListableBeanFactory getBeanFactory() {
 		synchronized (this.beanFactoryMonitor) {
+			// TODO: 2020/10/20  什么时候回去初始化beanFactory
 			if (this.beanFactory == null) {
 				throw new IllegalStateException("BeanFactory not initialized or already closed - " +
 						"call 'refresh' before accessing beans via the ApplicationContext");

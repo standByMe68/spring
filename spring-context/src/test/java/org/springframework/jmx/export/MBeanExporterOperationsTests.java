@@ -69,7 +69,7 @@ public class MBeanExporterOperationsTests extends AbstractMBeanServerTests {
 
 	@Test
 	public void testRegisterManagedResourceWithGeneratedObjectName() throws Exception {
-		final ObjectName objectNameTemplate = ObjectNameManager.getInstance("spring:type=Test");
+		final ObjectName objectNameTemplate = ObjectNameManager.getInstance("spring:type=com.Test");
 
 		MBeanExporter exporter = new MBeanExporter();
 		exporter.setServer(getServer());
@@ -95,7 +95,7 @@ public class MBeanExporterOperationsTests extends AbstractMBeanServerTests {
 
 	@Test
 	public void testRegisterManagedResourceWithGeneratedObjectNameWithoutUniqueness() throws Exception {
-		final ObjectName objectNameTemplate = ObjectNameManager.getInstance("spring:type=Test");
+		final ObjectName objectNameTemplate = ObjectNameManager.getInstance("spring:type=com.Test");
 
 		MBeanExporter exporter = new MBeanExporter();
 		exporter.setServer(getServer());

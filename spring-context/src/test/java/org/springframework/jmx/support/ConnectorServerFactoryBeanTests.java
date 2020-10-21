@@ -141,7 +141,7 @@ public class ConnectorServerFactoryBeanTests extends AbstractMBeanServerTests {
 		MBeanServerConnection connection = connector.getMBeanServerConnection();
 		assertNotNull("MBeanServerConnection should not be null", connection);
 
-		// Test for MBean server equality.
+		// com.Test for MBean server equality.
 		assertEquals("Registered MBean count should be the same", hostedServer.getMBeanCount(),
 				connection.getMBeanCount());
 	}

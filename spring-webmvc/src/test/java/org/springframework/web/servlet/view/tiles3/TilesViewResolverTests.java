@@ -29,7 +29,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link TilesViewResolver}.
+ * com.Test fixture for {@link TilesViewResolver}.
  *
  * @author mick semb wever
  */

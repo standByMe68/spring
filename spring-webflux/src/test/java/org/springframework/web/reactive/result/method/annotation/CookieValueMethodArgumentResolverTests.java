@@ -41,7 +41,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 /**
- * Test fixture with {@link CookieValueMethodArgumentResolver}.
+ * com.Test fixture with {@link CookieValueMethodArgumentResolver}.
  *
  * @author Rossen Stoyanchev
  */

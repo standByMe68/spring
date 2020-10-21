@@ -53,7 +53,7 @@ public class AtomFeedViewTests {
 
 		view.render(model, request, response);
 		assertEquals("Invalid content-type", "application/atom+xml", response.getContentType());
-		String expected = "<feed xmlns=\"http://www.w3.org/2005/Atom\">" + "<title>Test Feed</title>" +
+		String expected = "<feed xmlns=\"http://www.w3.org/2005/Atom\">" + "<title>com.Test Feed</title>" +
 				"<entry><title>2</title><summary>This is entry 2</summary></entry>" +
 				"<entry><title>1</title><summary>This is entry 1</summary></entry>" + "</feed>";
 		assertThat(response.getContentAsString(), isSimilarTo(expected));
@@ -67,7 +67,7 @@ public class AtomFeedViewTests {
 
 		@Override
 		protected void buildFeedMetadata(Map<String, Object>model, Feed feed, HttpServletRequest request) {
-			feed.setTitle("Test Feed");
+			feed.setTitle("com.Test Feed");
 		}
 
 		@Override

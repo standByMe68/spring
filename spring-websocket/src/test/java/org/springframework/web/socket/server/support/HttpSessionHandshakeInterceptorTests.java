@@ -31,7 +31,7 @@ import org.springframework.web.socket.WebSocketHandler;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link HttpSessionHandshakeInterceptor}.
+ * com.Test fixture for {@link HttpSessionHandshakeInterceptor}.
  *
  * @author Rossen Stoyanchev
  */

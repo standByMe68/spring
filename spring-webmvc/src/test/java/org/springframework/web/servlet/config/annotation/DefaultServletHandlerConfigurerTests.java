@@ -31,7 +31,7 @@ import org.springframework.web.servlet.resource.DefaultServletHttpRequestHandler
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with a {@link DefaultServletHandlerConfigurer}.
+ * com.Test fixture with a {@link DefaultServletHandlerConfigurer}.
  *
  * @author Rossen Stoyanchev
  */

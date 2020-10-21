@@ -33,7 +33,7 @@ import org.springframework.web.context.request.ServletWebRequest;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link ContentNegotiationConfigurer} tests.
+ * com.Test fixture for {@link ContentNegotiationConfigurer} tests.
  * @author Rossen Stoyanchev
  */
 public class ContentNegotiationConfigurerTests {

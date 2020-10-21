@@ -34,7 +34,7 @@ import org.springframework.web.context.support.GenericWebApplicationContext;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link ExpressionValueMethodArgumentResolver}.
+ * com.Test fixture with {@link ExpressionValueMethodArgumentResolver}.
  *
  * @author Rossen Stoyanchev
  */

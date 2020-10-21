@@ -115,7 +115,9 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 	@Nullable
 	private BeanFactory parentBeanFactory;
 
-	/** ClassLoader to resolve bean class names with, if necessary. */
+	/** ClassLoader to resolve bean class names with, if necessary.
+	 * 解析当前需要解析的类的名字
+	 * */
 	@Nullable
 	private ClassLoader beanClassLoader = ClassUtils.getDefaultClassLoader();
 
@@ -134,10 +136,14 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
 	@Nullable
 	private ConversionService conversionService;
 
-	/** Custom PropertyEditorRegistrars to apply to the beans of this factory. */
+	/** Custom PropertyEditorRegistrars to apply to the beans of this factory.
+	 * 可以通过自定义类实现PropertyEditorRegistrars接口中的方法对bean进行处理
+	 * */
 	private final Set<PropertyEditorRegistrar> propertyEditorRegistrars = new LinkedHashSet<>(4);
 
-	/** Custom PropertyEditors to apply to the beans of this factory. */
+	/** Custom PropertyEditors to apply to the beans of this factory. ‘
+	 *  属性编辑器，用于对象中属性的赋值  Spring中提供了很多属性编译器，大多数时使用BeanWrapperImpl进行注册
+	 * */
 	private final Map<Class<?>, Class<? extends PropertyEditor>> customEditors = new HashMap<>(4);
 
 	/** A custom TypeConverter to use, overriding the default PropertyEditor mechanism. */

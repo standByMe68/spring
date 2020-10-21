@@ -43,7 +43,7 @@ import org.springframework.web.servlet.view.xml.MarshallingView;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with a {@link ViewResolverRegistry}.
+ * com.Test fixture with a {@link ViewResolverRegistry}.
  *
  * @author Sebastien Deleuze
  * @author Rossen Stoyanchev

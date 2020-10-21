@@ -38,7 +38,7 @@ import static org.mockito.BDDMockito.*;
 public class LocalSlsbInvokerInterceptorTests {
 
 	/**
-	 * Test that it performs the correct lookup.
+	 * com.Test that it performs the correct lookup.
 	 */
 	@Test
 	public void testPerformsLookup() throws Exception {

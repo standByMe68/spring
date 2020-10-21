@@ -44,7 +44,7 @@ import static org.junit.Assert.assertThat;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Test cases for {@link ResourceRegionHttpMessageConverter} class.
+ * com.Test cases for {@link ResourceRegionHttpMessageConverter} class.
  *
  * @author Brian Clozel
  */

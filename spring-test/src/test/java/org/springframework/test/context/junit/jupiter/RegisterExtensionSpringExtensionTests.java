@@ -131,7 +131,7 @@ class RegisterExtensionSpringExtensionTests {
 	}
 
 	/**
-	 * NOTE: Test code must be compiled with "-g" (debug symbols) or "-parameters" in
+	 * NOTE: com.Test code must be compiled with "-g" (debug symbols) or "-parameters" in
 	 * order for the parameter name to be used as the qualifier; otherwise, use
 	 * {@code @Qualifier("wally")}.
 	 */

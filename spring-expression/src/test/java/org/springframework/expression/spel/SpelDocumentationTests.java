@@ -38,7 +38,7 @@ import org.springframework.expression.spel.testresources.PlaceOfBirth;
 import static org.junit.Assert.*;
 
 /**
- * Test the examples specified in the documentation.
+ * com.Test the examples specified in the documentation.
  *
  * NOTE: any outgoing changes from this file upon synchronizing with the repo may indicate that
  * you need to update the documentation too !

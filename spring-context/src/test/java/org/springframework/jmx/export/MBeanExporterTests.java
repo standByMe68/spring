@@ -100,7 +100,7 @@ public class MBeanExporterTests extends AbstractMBeanServerTests {
 			}
 		};
 		// the MBean with the supplied object name does not exist...
-		listeners.put("spring:type=Test", dummyListener);
+		listeners.put("spring:type=com.Test", dummyListener);
 		MBeanExporter exporter = new MBeanExporter();
 		exporter.setBeans(getBeanMap());
 		exporter.setServer(server);
@@ -352,7 +352,7 @@ public class MBeanExporterTests extends AbstractMBeanServerTests {
 
 		JmxTestBean bean = new JmxTestBean();
 		bean.setName(name);
-		ObjectName objectName = ObjectNameManager.getInstance("spring:type=Test");
+		ObjectName objectName = ObjectNameManager.getInstance("spring:type=com.Test");
 
 		Map<String, Object> beans = new HashMap<>();
 		beans.put(objectName.toString(), bean);

@@ -330,7 +330,7 @@ public abstract class YamlProcessor {
 	public interface DocumentMatcher {
 
 		/**
-		 * Test if the given properties match.
+		 * com.Test if the given properties match.
 		 * @param properties the properties to test
 		 * @return the status of the match
 		 */

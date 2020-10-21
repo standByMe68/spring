@@ -99,7 +99,7 @@ public class AnnotationTestBean implements IJmxTestBean {
 	}
 
 	/**
-	 * Test method that is not exposed by the MetadataAssembler.
+	 * com.Test method that is not exposed by the MetadataAssembler.
 	 */
 	@Override
 	public void dontExposeMe() {

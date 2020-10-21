@@ -34,7 +34,7 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link ServletResponseMethodArgumentResolver}.
+ * com.Test fixture with {@link ServletResponseMethodArgumentResolver}.
  *
  * @author Arjen Poutsma
  */

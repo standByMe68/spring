@@ -40,7 +40,7 @@ import org.springframework.util.ReflectionUtils;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link HeaderMethodArgumentResolver} tests.
+ * com.Test fixture for {@link HeaderMethodArgumentResolver} tests.
  *
  * @author Rossen Stoyanchev
  * @author Juergen Hoeller

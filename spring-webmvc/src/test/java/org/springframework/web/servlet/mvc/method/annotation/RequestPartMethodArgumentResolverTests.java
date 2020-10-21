@@ -60,7 +60,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture with {@link RequestPartMethodArgumentResolver} and mock {@link HttpMessageConverter}.
+ * com.Test fixture with {@link RequestPartMethodArgumentResolver} and mock {@link HttpMessageConverter}.
  *
  * @author Rossen Stoyanchev
  * @author Brian Clozel

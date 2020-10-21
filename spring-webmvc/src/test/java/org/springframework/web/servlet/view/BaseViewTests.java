@@ -72,7 +72,7 @@ public class BaseViewTests {
 	}
 
 	/**
-	 * Test attribute passing, NOT CSV parsing.
+	 * com.Test attribute passing, NOT CSV parsing.
 	 */
 	@Test
 	public void renderWithStaticAttributesNoCollision() throws Exception {
@@ -194,7 +194,7 @@ public class BaseViewTests {
 	}
 
 	/**
-	 * Test only the CSV parsing implementation.
+	 * com.Test only the CSV parsing implementation.
 	 */
 	@Test
 	public void attributeCSVParsingIgnoresNull() {

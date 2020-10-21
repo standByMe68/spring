@@ -86,7 +86,7 @@ public class SQLErrorCodeSQLExceptionTranslatorTests {
 		assertTrue("Not instance of DataIntegrityViolationException",
 				DataIntegrityViolationException.class.isAssignableFrom(dksex.getClass()));
 
-		// Test fallback. We assume that no database will ever return this error code,
+		// com.Test fallback. We assume that no database will ever return this error code,
 		// but 07xxx will be bad grammar picked up by the fallback SQLState translator
 		SQLException sex = new SQLException("", "07xxx", 666666666);
 		BadSqlGrammarException bsgex2 = (BadSqlGrammarException) sext.translate("task", "SQL2", sex);

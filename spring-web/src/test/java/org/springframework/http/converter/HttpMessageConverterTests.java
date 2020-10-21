@@ -29,7 +29,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 /**
- * Test-case for AbstractHttpMessageConverter.
+ * com.Test-case for AbstractHttpMessageConverter.
  *
  * @author Arjen Poutsma
  * @author Rossen Stoyanchev

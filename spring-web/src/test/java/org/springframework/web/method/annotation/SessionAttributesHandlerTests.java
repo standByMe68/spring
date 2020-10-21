@@ -38,7 +38,7 @@ import static org.junit.Assert.assertNull;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Test fixture with {@link SessionAttributesHandler}.
+ * com.Test fixture with {@link SessionAttributesHandler}.
  * @author Rossen Stoyanchev
  */
 public class SessionAttributesHandlerTests {

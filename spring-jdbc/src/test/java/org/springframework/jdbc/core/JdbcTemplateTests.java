@@ -316,7 +316,7 @@ public class JdbcTemplateTests {
 	}
 
 	/**
-	 * Test that we see a runtime exception come back.
+	 * com.Test that we see a runtime exception come back.
 	 */
 	@Test
 	public void testExceptionComesBack() throws Exception {
@@ -340,7 +340,7 @@ public class JdbcTemplateTests {
 	}
 
 	/**
-	 * Test update with static SQL.
+	 * com.Test update with static SQL.
 	 */
 	@Test
 	public void testSqlUpdate() throws Exception {
@@ -357,7 +357,7 @@ public class JdbcTemplateTests {
 	}
 
 	/**
-	 * Test update with dynamic SQL.
+	 * com.Test update with dynamic SQL.
 	 */
 	@Test
 	public void testSqlUpdateWithArguments() throws Exception {
@@ -1007,7 +1007,7 @@ public class JdbcTemplateTests {
 	}
 
 	/**
-	 * Test that we see an SQLException translated using Error Code.
+	 * com.Test that we see an SQLException translated using Error Code.
 	 * If we provide the SQLExceptionTranslator, we shouldn't use a connection
 	 * to get the metadata
 	 */

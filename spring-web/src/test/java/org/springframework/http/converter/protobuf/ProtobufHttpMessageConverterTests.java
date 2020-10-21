@@ -35,7 +35,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 /**
- * Test suite for {@link ProtobufHttpMessageConverter}.
+ * com.Test suite for {@link ProtobufHttpMessageConverter}.
  *
  * @author Alex Antonov
  * @author Juergen Hoeller

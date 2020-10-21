@@ -42,8 +42,8 @@ public class PatternMatchUtilsTests {
 
 	@Test
 	public void testEndsWith() {
-		doTest("*Test", "getMeTest", true);
-		doTest("*Test", "setMe", false);
+		doTest("*com.Test", "getMeTest", true);
+		doTest("*com.Test", "setMe", false);
 	}
 
 	@Test

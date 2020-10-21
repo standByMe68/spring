@@ -503,7 +503,7 @@ public class PathPatternTests {
 		checkMatches("*", "test");
 		checkMatches("test*", "test");
 		checkMatches("test*", "testTest");
-		checkMatches("test/*", "test/Test");
+		checkMatches("test/*", "test/com.Test");
 		checkMatches("test/*", "test/t");
 		checkMatches("test/*", "test/");
 		checkMatches("*test*", "AnothertestTest");

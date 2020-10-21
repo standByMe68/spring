@@ -34,7 +34,7 @@ import org.springframework.web.socket.AbstractHttpRequestTests;
 import org.springframework.web.socket.WebSocketHandler;
 
 /**
- * Test fixture for {@link OriginHandshakeInterceptor}.
+ * com.Test fixture for {@link OriginHandshakeInterceptor}.
  *
  * @author Sebastien Deleuze
  */

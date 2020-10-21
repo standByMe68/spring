@@ -89,7 +89,7 @@ public class ConstructorInvocationTests extends AbstractExpressionTests {
 
 	@Test
 	public void testConstructorThrowingException_SPR6760() {
-		// Test ctor on inventor:
+		// com.Test ctor on inventor:
 		// On 1 it will throw an IllegalArgumentException
 		// On 2 it will throw a RuntimeException
 		// On 3 it will exit normally

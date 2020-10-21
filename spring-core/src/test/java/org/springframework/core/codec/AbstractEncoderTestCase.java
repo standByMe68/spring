@@ -127,7 +127,7 @@ public abstract class AbstractEncoderTestCase<E extends Encoder<?>>
 	}
 
 	/**
-	 * Test a standard {@link Encoder#encode encode} scenario.
+	 * com.Test a standard {@link Encoder#encode encode} scenario.
 	 *
 	 * @param input the input to be provided to the encoder
 	 * @param inputClass the input class
@@ -140,7 +140,7 @@ public abstract class AbstractEncoderTestCase<E extends Encoder<?>>
 	}
 
 	/**
-	 * Test a standard {@link Encoder#encode encode} scenario.
+	 * com.Test a standard {@link Encoder#encode encode} scenario.
 	 *
 	 * @param input the input to be provided to the encoder
 	 * @param inputType the input type
@@ -161,7 +161,7 @@ public abstract class AbstractEncoderTestCase<E extends Encoder<?>>
 	}
 
 	/**
-	 * Test a {@link Encoder#encode encode} scenario where the input stream contains an error.
+	 * com.Test a {@link Encoder#encode encode} scenario where the input stream contains an error.
 	 * This test method will feed the first element of the {@code input} stream to the encoder,
 	 * followed by an {@link InputException}.
 	 * The result is expected to contain one "normal" element, followed by the error.
@@ -189,7 +189,7 @@ public abstract class AbstractEncoderTestCase<E extends Encoder<?>>
 	}
 
 	/**
-	 * Test a {@link Encoder#encode encode} scenario where the input stream is canceled.
+	 * com.Test a {@link Encoder#encode encode} scenario where the input stream is canceled.
 	 * This test method will feed the first element of the {@code input} stream to the decoder,
 	 * followed by a cancel signal.
 	 * The result is expected to contain one "normal" element.
@@ -212,7 +212,7 @@ public abstract class AbstractEncoderTestCase<E extends Encoder<?>>
 	}
 
 	/**
-	 * Test a {@link Encoder#encode encode} scenario where the input stream is empty.
+	 * com.Test a {@link Encoder#encode encode} scenario where the input stream is empty.
 	 * The output is expected to be empty as well.
 	 *
 	 * @param inputType the input type

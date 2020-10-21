@@ -33,7 +33,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 /**
- * Test fixture for the use of {@link ChannelInterceptor}s.
+ * com.Test fixture for the use of {@link ChannelInterceptor}s.
  *
  * @author Rossen Stoyanchev
  */

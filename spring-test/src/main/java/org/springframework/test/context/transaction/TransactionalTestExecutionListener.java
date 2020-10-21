@@ -52,8 +52,8 @@ import org.springframework.util.StringUtils;
  * {@link org.springframework.transaction.annotation.Transactional @Transactional}
  * annotation.
  *
- * <h3>Test-managed Transactions</h3>
- * <p><em>Test-managed transactions</em> are transactions that are managed
+ * <h3>com.Test-managed Transactions</h3>
+ * <p><em>com.Test-managed transactions</em> are transactions that are managed
  * declaratively via this listener or programmatically via
  * {@link TestTransaction}. Such transactions should not be confused with
  * <em>Spring-managed transactions</em> (i.e., those managed directly
@@ -72,7 +72,7 @@ import org.springframework.util.StringUtils;
  * to be run within a transaction that will, by default, be automatically
  * <em>rolled back</em> after completion of the test. If a test class is
  * annotated with {@code @Transactional}, each test method within that class
- * hierarchy will be run within a transaction. Test methods that are
+ * hierarchy will be run within a transaction. com.Test methods that are
  * <em>not</em> annotated with {@code @Transactional} (at the class or method
  * level) will not be run within a transaction. Furthermore, tests that
  * <em>are</em> annotated with {@code @Transactional} but have the
@@ -160,7 +160,7 @@ public class TransactionalTestExecutionListener extends AbstractTestExecutionLis
 	public void beforeTestMethod(final TestContext testContext) throws Exception {
 		Method testMethod = testContext.getTestMethod();
 		Class<?> testClass = testContext.getTestClass();
-		Assert.notNull(testMethod, "Test method of supplied TestContext must not be null");
+		Assert.notNull(testMethod, "com.Test method of supplied TestContext must not be null");
 
 		TransactionContext txContext = TransactionContextHolder.removeCurrentTransactionContext();
 		Assert.state(txContext == null, "Cannot start new transaction without ending existing transaction");

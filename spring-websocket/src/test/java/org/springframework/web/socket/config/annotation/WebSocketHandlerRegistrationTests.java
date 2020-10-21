@@ -42,7 +42,7 @@ import static org.junit.Assert.assertSame;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Test fixture for
+ * com.Test fixture for
  * {@link org.springframework.web.socket.config.annotation.AbstractWebSocketHandlerRegistration}.
  *
  * @author Rossen Stoyanchev

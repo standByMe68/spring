@@ -38,7 +38,7 @@ import org.springframework.web.socket.server.support.DefaultHandshakeHandler;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link org.springframework.web.socket.server.support.DefaultHandshakeHandler}.
+ * com.Test fixture for {@link org.springframework.web.socket.server.support.DefaultHandshakeHandler}.
  *
  * @author Rossen Stoyanchev
  */

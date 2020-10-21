@@ -33,7 +33,7 @@ import static org.springframework.test.web.client.match.MockRestRequestMatchers.
 import static org.springframework.test.web.client.response.MockRestResponseCreators.*;
 
 /**
- * Examples to demonstrate writing client-side REST tests with Spring MVC Test.
+ * Examples to demonstrate writing client-side REST tests with Spring MVC com.Test.
  * While the tests in this class invoke the RestTemplate directly, in actual
  * tests the RestTemplate may likely be invoked indirectly, i.e. through client
  * code.

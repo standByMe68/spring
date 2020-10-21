@@ -32,7 +32,7 @@ import org.springframework.tests.sample.beans.ITestBean;
 import static org.junit.Assert.*;
 
 /**
- * Test for correct application of the bean() PCD for XML-based AspectJ aspects.
+ * com.Test for correct application of the bean() PCD for XML-based AspectJ aspects.
  *
  * @author Ramnivas Laddad
  * @author Juergen Hoeller

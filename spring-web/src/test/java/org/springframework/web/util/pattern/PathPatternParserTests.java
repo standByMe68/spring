@@ -271,7 +271,7 @@ public class PathPatternParserTests {
 
 	@Test
 	public void patternPropertyGetCaptureCountTests() {
-		// Test all basic section types
+		// com.Test all basic section types
 		assertEquals(1, parse("{foo}").getCapturedVariableCount());
 		assertEquals(0, parse("foo").getCapturedVariableCount());
 		assertEquals(1, parse("{*foobar}").getCapturedVariableCount());
@@ -284,7 +284,7 @@ public class PathPatternParserTests {
 		assertEquals(0, parse("a?b").getCapturedVariableCount());
 		assertEquals(0, parse("*").getCapturedVariableCount());
 
-		// Test on full templates
+		// com.Test on full templates
 		assertEquals(0, parse("/foo/bar").getCapturedVariableCount());
 		assertEquals(1, parse("/{foo}").getCapturedVariableCount());
 		assertEquals(2, parse("/{foo}/{bar}").getCapturedVariableCount());
@@ -293,7 +293,7 @@ public class PathPatternParserTests {
 
 	@Test
 	public void patternPropertyGetWildcardCountTests() {
-		// Test all basic section types
+		// com.Test all basic section types
 		assertEquals(computeScore(1, 0), parse("{foo}").getScore());
 		assertEquals(computeScore(0, 0), parse("foo").getScore());
 		assertEquals(computeScore(0, 0), parse("{*foobar}").getScore());
@@ -305,7 +305,7 @@ public class PathPatternParserTests {
 		assertEquals(computeScore(0, 0), parse("a?b").getScore()); // currently deliberate
 		assertEquals(computeScore(0, 1), parse("*").getScore());
 
-		// Test on full templates
+		// com.Test on full templates
 		assertEquals(computeScore(0, 0), parse("/foo/bar").getScore());
 		assertEquals(computeScore(1, 0), parse("/{foo}").getScore());
 		assertEquals(computeScore(2, 0), parse("/{foo}/{bar}").getScore());
@@ -333,7 +333,7 @@ public class PathPatternParserTests {
 
 	@Test
 	public void patternPropertyGetLengthTests() {
-		// Test all basic section types
+		// com.Test all basic section types
 		assertEquals(1, parse("{foo}").getNormalizedLength());
 		assertEquals(3, parse("foo").getNormalizedLength());
 		assertEquals(1, parse("{*foobar}").getNormalizedLength());
@@ -346,7 +346,7 @@ public class PathPatternParserTests {
 		assertEquals(3, parse("a?b").getNormalizedLength());
 		assertEquals(1, parse("*").getNormalizedLength());
 
-		// Test on full templates
+		// com.Test on full templates
 		assertEquals(8, parse("/foo/bar").getNormalizedLength());
 		assertEquals(2, parse("/{foo}").getNormalizedLength());
 		assertEquals(4, parse("/{foo}/{bar}").getNormalizedLength());

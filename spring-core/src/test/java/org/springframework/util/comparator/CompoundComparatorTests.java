@@ -23,7 +23,7 @@ import org.junit.Test;
 import org.junit.rules.ExpectedException;
 
 /**
- * Test for {@link CompoundComparator}.
+ * com.Test for {@link CompoundComparator}.
  *
  * @author Keith Donald
  * @author Chris Beams

@@ -44,7 +44,7 @@ import org.springframework.web.context.support.GenericWebApplicationContext;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link RequestHeaderMethodArgumentResolver}.
+ * com.Test fixture with {@link RequestHeaderMethodArgumentResolver}.
  *
  * @author Arjen Poutsma
  * @author Rossen Stoyanchev

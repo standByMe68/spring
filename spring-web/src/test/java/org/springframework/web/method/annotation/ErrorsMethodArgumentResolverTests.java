@@ -31,7 +31,7 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link ErrorsMethodArgumentResolver}.
+ * com.Test fixture with {@link ErrorsMethodArgumentResolver}.
  *
  * @author Rossen Stoyanchev
  */

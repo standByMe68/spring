@@ -32,7 +32,7 @@ import java.lang.annotation.Target;
  * <p>The following JUnit-based examples demonstrate common configuration
  * scenarios for integration tests that require the use of context hierarchies.
  *
- * <h4>Single Test Class with Context Hierarchy</h4>
+ * <h4>Single com.Test Class with Context Hierarchy</h4>
  * <p>{@code ControllerIntegrationTests} represents a typical integration testing
  * scenario for a Spring MVC web application by declaring a context hierarchy
  * consisting of two levels, one for the <em>root</em> {@code WebApplicationContext}

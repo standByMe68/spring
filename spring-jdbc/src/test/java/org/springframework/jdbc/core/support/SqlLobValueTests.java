@@ -38,7 +38,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test cases for the sql lob value:
+ * com.Test cases for the sql lob value:
  *
  * BLOB:
  *   1. Types.BLOB: setBlobAsBytes (byte[])

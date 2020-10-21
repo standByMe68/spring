@@ -27,7 +27,7 @@ import org.springframework.expression.spel.support.StandardEvaluationContext;
 import static org.junit.Assert.*;
 
 /**
- * Test providing operator support
+ * com.Test providing operator support
  *
  * @author Andy Clement
  */

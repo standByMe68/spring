@@ -424,7 +424,7 @@ public abstract class AbstractTransactionAspectTests {
 	}
 
 	/**
-	 * Test that TransactionStatus.setRollbackOnly works.
+	 * com.Test that TransactionStatus.setRollbackOnly works.
 	 */
 	@Test
 	public void programmaticRollback() throws Exception {

@@ -143,7 +143,7 @@ abstract class ContextLoaderUtils {
 			}
 			else {
 				// This should theoretically never happen...
-				String msg = String.format("Test class [%s] has been configured with neither @ContextConfiguration " +
+				String msg = String.format("com.Test class [%s] has been configured with neither @ContextConfiguration " +
 						"nor @ContextHierarchy as a class-level annotation.", rootDeclaringClass.getName());
 				logger.error(msg);
 				throw new IllegalStateException(msg);

@@ -57,7 +57,7 @@ import static org.junit.Assert.*;
 import static org.springframework.http.MediaType.*;
 
 /**
- * Test the effect of exceptions at different stages of request processing by
+ * com.Test the effect of exceptions at different stages of request processing by
  * checking the error signals on the completion publisher.
  *
  * @author Rossen Stoyanchev

@@ -93,7 +93,7 @@ public class NotificationPublisherTests extends AbstractMBeanServerTests {
 	}
 
 	/*
-	@Test
+	@com.Test
 	public void testStandardMBean() throws Exception {
 		// start the MBeanExporter
 		ApplicationContext ctx = new ClassPathXmlApplicationContext("org/springframework/jmx/export/notificationPublisherTests.xml");

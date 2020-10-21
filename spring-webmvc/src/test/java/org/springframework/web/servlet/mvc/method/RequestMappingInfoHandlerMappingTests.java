@@ -64,7 +64,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link RequestMappingInfoHandlerMapping}.
+ * com.Test fixture with {@link RequestMappingInfoHandlerMapping}.
  *
  * @author Arjen Poutsma
  * @author Rossen Stoyanchev

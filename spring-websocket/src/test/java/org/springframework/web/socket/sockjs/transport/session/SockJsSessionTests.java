@@ -44,7 +44,7 @@ import static org.mockito.BDDMockito.willReturn;
 import static org.mockito.BDDMockito.willThrow;
 
 /**
- * Test fixture for {@link AbstractSockJsSession}.
+ * com.Test fixture for {@link AbstractSockJsSession}.
  *
  * @author Rossen Stoyanchev
  */

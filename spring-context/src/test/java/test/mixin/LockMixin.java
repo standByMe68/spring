@@ -22,7 +22,7 @@ import org.springframework.aop.support.DelegatingIntroductionInterceptor;
 
 /**
  * Mixin to provide stateful locking functionality.
- * Test/demonstration of AOP mixin support rather than a
+ * com.Test/demonstration of AOP mixin support rather than a
  * useful interceptor in its own right.
  *
  * @author Rod Johnson

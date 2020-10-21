@@ -26,7 +26,7 @@ import org.springframework.web.socket.WebSocketSession;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link PerConnectionWebSocketHandler}.
+ * com.Test fixture for {@link PerConnectionWebSocketHandler}.
  *
  * @author Rossen Stoyanchev
  */

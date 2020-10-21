@@ -33,7 +33,7 @@ import org.springframework.web.servlet.view.RedirectView;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with a {@link ViewControllerRegistry}.
+ * com.Test fixture with a {@link ViewControllerRegistry}.
  *
  * @author Rossen Stoyanchev
  */

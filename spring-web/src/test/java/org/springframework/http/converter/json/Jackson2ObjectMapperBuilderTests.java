@@ -87,7 +87,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 /**
- * Test class for {@link Jackson2ObjectMapperBuilder}.
+ * com.Test class for {@link Jackson2ObjectMapperBuilder}.
  *
  * @author Sebastien Deleuze
  * @author Eddú Meléndez

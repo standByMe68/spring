@@ -72,7 +72,7 @@ public class AntPathMatcherTests {
 		assertTrue(pathMatcher.match("*", "test"));
 		assertTrue(pathMatcher.match("test*", "test"));
 		assertTrue(pathMatcher.match("test*", "testTest"));
-		assertTrue(pathMatcher.match("test/*", "test/Test"));
+		assertTrue(pathMatcher.match("test/*", "test/com.Test"));
 		assertTrue(pathMatcher.match("test/*", "test/t"));
 		assertTrue(pathMatcher.match("test/*", "test/"));
 		assertTrue(pathMatcher.match("*test*", "AnothertestTest"));
@@ -167,7 +167,7 @@ public class AntPathMatcherTests {
 		assertTrue(pathMatcher.matchStart("*", "test"));
 		assertTrue(pathMatcher.matchStart("test*", "test"));
 		assertTrue(pathMatcher.matchStart("test*", "testTest"));
-		assertTrue(pathMatcher.matchStart("test/*", "test/Test"));
+		assertTrue(pathMatcher.matchStart("test/*", "test/com.Test"));
 		assertTrue(pathMatcher.matchStart("test/*", "test/t"));
 		assertTrue(pathMatcher.matchStart("test/*", "test/"));
 		assertTrue(pathMatcher.matchStart("*test*", "AnothertestTest"));

@@ -58,7 +58,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link RequestResponseBodyMethodProcessor} delegating to a
+ * com.Test fixture for {@link RequestResponseBodyMethodProcessor} delegating to a
  * mock HttpMessageConverter.
  *
  * <p>Also see {@link RequestResponseBodyMethodProcessorTests}.

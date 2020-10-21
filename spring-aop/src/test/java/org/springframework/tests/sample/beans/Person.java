@@ -31,7 +31,7 @@ public interface Person {
 	void setAge(int i);
 
 	/**
-	 * Test for non-property method matching. If the parameter is a Throwable, it will be
+	 * com.Test for non-property method matching. If the parameter is a Throwable, it will be
 	 * thrown rather than returned.
 	 */
 	Object echo(Object o) throws Throwable;

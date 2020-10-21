@@ -48,7 +48,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 	@SuppressWarnings({"rawtypes", "unchecked"})
 	@Test
 	public void testRegisterNotificationListenerForMBean() throws Exception {
-		ObjectName objectName = ObjectName.getInstance("spring:name=Test");
+		ObjectName objectName = ObjectName.getInstance("spring:name=com.Test");
 		JmxTestBean bean = new JmxTestBean();
 
 		Map<String, Object> beans = new HashMap<>();
@@ -74,7 +74,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	@Test
 	public void testRegisterNotificationListenerWithWildcard() throws Exception {
-		ObjectName objectName = ObjectName.getInstance("spring:name=Test");
+		ObjectName objectName = ObjectName.getInstance("spring:name=com.Test");
 		JmxTestBean bean = new JmxTestBean();
 
 		Map<String, Object> beans = new HashMap<>();
@@ -99,7 +99,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 
 	@Test
 	public void testRegisterNotificationListenerWithHandback() throws Exception {
-		String objectName = "spring:name=Test";
+		String objectName = "spring:name=com.Test";
 		JmxTestBean bean = new JmxTestBean();
 
 		Map<String, Object> beans = new HashMap<>();
@@ -110,7 +110,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 
 		NotificationListenerBean listenerBean = new NotificationListenerBean();
 		listenerBean.setNotificationListener(listener);
-		listenerBean.setMappedObjectName("spring:name=Test");
+		listenerBean.setMappedObjectName("spring:name=com.Test");
 		listenerBean.setHandback(handback);
 
 		MBeanExporter exporter = new MBeanExporter();
@@ -121,7 +121,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 
 		// update the attribute
 		String attributeName = "Name";
-		server.setAttribute(ObjectNameManager.getInstance("spring:name=Test"), new Attribute(attributeName,
+		server.setAttribute(ObjectNameManager.getInstance("spring:name=com.Test"), new Attribute(attributeName,
 				"Rob Harrop"));
 
 		assertEquals("Listener not notified", 1, listener.getCount(attributeName));
@@ -130,7 +130,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 
 	@Test
 	public void testRegisterNotificationListenerForAllMBeans() throws Exception {
-		ObjectName objectName = ObjectName.getInstance("spring:name=Test");
+		ObjectName objectName = ObjectName.getInstance("spring:name=com.Test");
 		JmxTestBean bean = new JmxTestBean();
 
 		Map<String, Object> beans = new HashMap<>();
@@ -157,7 +157,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 	@SuppressWarnings("serial")
 	@Test
 	public void testRegisterNotificationListenerWithFilter() throws Exception {
-		ObjectName objectName = ObjectName.getInstance("spring:name=Test");
+		ObjectName objectName = ObjectName.getInstance("spring:name=com.Test");
 		JmxTestBean bean = new JmxTestBean();
 
 		Map<String, Object> beans = new HashMap<>();
@@ -211,7 +211,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 	@Test
 	public void testRegisterNotificationListenerWithBeanNameAndBeanNameInBeansMap() throws Exception {
 		String beanName = "testBean";
-		ObjectName objectName = ObjectName.getInstance("spring:name=Test");
+		ObjectName objectName = ObjectName.getInstance("spring:name=com.Test");
 
 		SelfNamingTestBean testBean = new SelfNamingTestBean();
 		testBean.setObjectName(objectName);
@@ -242,7 +242,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 	@Test
 	public void testRegisterNotificationListenerWithBeanNameAndBeanInstanceInBeansMap() throws Exception {
 		String beanName = "testBean";
-		ObjectName objectName = ObjectName.getInstance("spring:name=Test");
+		ObjectName objectName = ObjectName.getInstance("spring:name=com.Test");
 
 		SelfNamingTestBean testBean = new SelfNamingTestBean();
 		testBean.setObjectName(objectName);
@@ -273,7 +273,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 	@Test
 	public void testRegisterNotificationListenerWithBeanNameBeforeObjectNameMappedToSameBeanInstance() throws Exception {
 		String beanName = "testBean";
-		ObjectName objectName = ObjectName.getInstance("spring:name=Test");
+		ObjectName objectName = ObjectName.getInstance("spring:name=com.Test");
 
 		SelfNamingTestBean testBean = new SelfNamingTestBean();
 		testBean.setObjectName(objectName);
@@ -305,7 +305,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 	@Test
 	public void testRegisterNotificationListenerWithObjectNameBeforeBeanNameMappedToSameBeanInstance() throws Exception {
 		String beanName = "testBean";
-		ObjectName objectName = ObjectName.getInstance("spring:name=Test");
+		ObjectName objectName = ObjectName.getInstance("spring:name=com.Test");
 
 		SelfNamingTestBean testBean = new SelfNamingTestBean();
 		testBean.setObjectName(objectName);
@@ -379,7 +379,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 
 	@Test
 	public void testNotificationListenerRegistrar() throws Exception {
-		ObjectName objectName = ObjectName.getInstance("spring:name=Test");
+		ObjectName objectName = ObjectName.getInstance("spring:name=com.Test");
 		JmxTestBean bean = new JmxTestBean();
 
 		Map<String, Object> beans = new HashMap<>();
@@ -412,7 +412,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 
 	@Test
 	public void testNotificationListenerRegistrarWithMultipleNames() throws Exception {
-		ObjectName objectName = ObjectName.getInstance("spring:name=Test");
+		ObjectName objectName = ObjectName.getInstance("spring:name=com.Test");
 		ObjectName objectName2 = ObjectName.getInstance("spring:name=Test2");
 		JmxTestBean bean = new JmxTestBean();
 		JmxTestBean bean2 = new JmxTestBean();
@@ -432,7 +432,7 @@ public class NotificationListenerTests extends AbstractMBeanServerTests {
 		registrar.setServer(server);
 		registrar.setNotificationListener(listener);
 		//registrar.setMappedObjectNames(new Object[] {objectName, objectName2});
-		registrar.setMappedObjectNames("spring:name=Test", "spring:name=Test2");
+		registrar.setMappedObjectNames("spring:name=com.Test", "spring:name=Test2");
 		registrar.afterPropertiesSet();
 
 		// update the attribute

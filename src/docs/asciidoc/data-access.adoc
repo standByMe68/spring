@@ -4918,7 +4918,7 @@ shows the test template:
 					.build();
 		}
 
-		@Test
+		@com.Test
 		public void testDataAccess() {
 			JdbcTemplate template = new JdbcTemplate(db);
 			template.query( /* ... */ );

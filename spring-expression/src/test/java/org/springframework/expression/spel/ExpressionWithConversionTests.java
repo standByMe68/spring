@@ -66,7 +66,7 @@ public class ExpressionWithConversionTests extends AbstractExpressionTests {
 
 
 	/**
-	 * Test the service can convert what we are about to use in the expression evaluation tests.
+	 * com.Test the service can convert what we are about to use in the expression evaluation tests.
 	 */
 	@Test
 	public void testConversionsAvailable() throws Exception {

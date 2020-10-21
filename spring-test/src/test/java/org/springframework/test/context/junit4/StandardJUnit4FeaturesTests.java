@@ -30,7 +30,7 @@ import static org.junit.Assume.*;
  * Simple unit test to verify the expected functionality of standard JUnit 4.4+
  * testing features.
  * <p>
- * Currently testing: {@link Test @Test} (including expected exceptions and
+ * Currently testing: {@link Test @com.Test} (including expected exceptions and
  * timeouts), {@link BeforeClass @BeforeClass}, {@link Before @Before}, and
  * <em>assumptions</em>.
  * </p>

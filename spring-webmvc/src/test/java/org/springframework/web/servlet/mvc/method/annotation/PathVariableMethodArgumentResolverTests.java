@@ -43,7 +43,7 @@ import org.springframework.web.servlet.View;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link PathVariableMethodArgumentResolver}.
+ * com.Test fixture with {@link PathVariableMethodArgumentResolver}.
  *
  * @author Rossen Stoyanchev
  * @author Juergen Hoeller

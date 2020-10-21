@@ -32,7 +32,7 @@ import org.springframework.mock.web.test.MockServletContext;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link TilesConfigurer}.
+ * com.Test fixture for {@link TilesConfigurer}.
  *
  * @author Nicolas Le Bas
  */

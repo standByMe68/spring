@@ -33,7 +33,7 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link ExceptionHandlerMethodResolver} tests.
+ * com.Test fixture for {@link ExceptionHandlerMethodResolver} tests.
  *
  * @author Rossen Stoyanchev
  */

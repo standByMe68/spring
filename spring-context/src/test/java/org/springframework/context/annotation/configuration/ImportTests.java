@@ -329,7 +329,7 @@ public class ImportTests {
 	// ------------------------------------------------------------------------
 
 	/**
-	 * Test that values supplied to @Configuration(value="...") are propagated as the
+	 * com.Test that values supplied to @Configuration(value="...") are propagated as the
 	 * bean name for the configuration class even in the case of inclusion via @Import
 	 * or in the case of automatic registration via nesting
 	 */

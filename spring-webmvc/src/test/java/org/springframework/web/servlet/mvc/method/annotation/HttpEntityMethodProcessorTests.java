@@ -50,7 +50,7 @@ import org.springframework.web.method.support.ModelAndViewContainer;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link HttpEntityMethodProcessor} delegating to
+ * com.Test fixture with {@link HttpEntityMethodProcessor} delegating to
  * actual {@link HttpMessageConverter} instances.
  *
  * <p>Also see {@link HttpEntityMethodProcessorMockTests}.

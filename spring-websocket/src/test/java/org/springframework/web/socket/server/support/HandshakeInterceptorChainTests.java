@@ -31,7 +31,7 @@ import org.springframework.web.socket.server.HandshakeInterceptor;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link HandshakeInterceptorChain}.
+ * com.Test fixture for {@link HandshakeInterceptorChain}.
  *
  * @author Rossen Stoyanchev
  */

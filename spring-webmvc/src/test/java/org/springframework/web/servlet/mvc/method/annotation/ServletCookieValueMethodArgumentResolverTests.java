@@ -33,7 +33,7 @@ import org.springframework.web.context.request.ServletWebRequest;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link ServletCookieValueMethodArgumentResolver}.
+ * com.Test fixture with {@link ServletCookieValueMethodArgumentResolver}.
  *
  * @author Arjen Poutsma
  * @author Rossen Stoyanchev

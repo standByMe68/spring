@@ -31,7 +31,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link UriComponentsBuilderMethodArgumentResolver}.
+ * com.Test fixture with {@link UriComponentsBuilderMethodArgumentResolver}.
  *
  * @author Rossen Stoyanchev
  */

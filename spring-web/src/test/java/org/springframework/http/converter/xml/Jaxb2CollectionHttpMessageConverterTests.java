@@ -41,7 +41,7 @@ import org.springframework.http.converter.HttpMessageNotReadableException;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link Jaxb2CollectionHttpMessageConverter}.
+ * com.Test fixture for {@link Jaxb2CollectionHttpMessageConverter}.
  *
  * @author Arjen Poutsma
  * @author Rossen Stoyanchev

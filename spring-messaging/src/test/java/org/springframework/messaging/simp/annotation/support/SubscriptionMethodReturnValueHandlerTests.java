@@ -49,7 +49,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link SubscriptionMethodReturnValueHandler}.
+ * com.Test fixture for {@link SubscriptionMethodReturnValueHandler}.
  *
  * @author Rossen Stoyanchev
  * @author Sebastien Deleuze

@@ -667,7 +667,7 @@ public class XmlBeanFactoryTests {
 	}
 
 	/**
-	 * Test that if a custom initializer throws an exception, it's handled correctly
+	 * com.Test that if a custom initializer throws an exception, it's handled correctly
 	 */
 	@Test
 	public void testInitMethodThrowsException() {

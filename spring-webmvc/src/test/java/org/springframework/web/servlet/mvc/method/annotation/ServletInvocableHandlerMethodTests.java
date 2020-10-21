@@ -59,7 +59,7 @@ import static org.junit.Assert.assertTrue;
 import static org.junit.Assert.fail;
 
 /**
- * Test fixture with {@link ServletInvocableHandlerMethod}.
+ * com.Test fixture with {@link ServletInvocableHandlerMethod}.
  *
  * @author Rossen Stoyanchev
  * @author Sam Brannen

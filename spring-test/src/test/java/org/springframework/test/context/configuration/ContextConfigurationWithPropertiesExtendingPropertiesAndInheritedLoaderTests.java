@@ -54,7 +54,7 @@ public class ContextConfigurationWithPropertiesExtendingPropertiesAndInheritedLo
 		assertEquals("Fido", this.dog.getName());
 
 		assertNotNull("The testString2 field should have been autowired.", this.testString2);
-		assertEquals("Test String #2", this.testString2);
+		assertEquals("com.Test String #2", this.testString2);
 	}
 
 }

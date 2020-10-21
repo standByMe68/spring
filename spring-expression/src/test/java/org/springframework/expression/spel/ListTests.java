@@ -28,7 +28,7 @@ import org.springframework.expression.spel.standard.SpelExpressionParser;
 import static org.junit.Assert.*;
 
 /**
- * Test usage of inline lists.
+ * com.Test usage of inline lists.
  *
  * @author Andy Clement
  * @author Giovanni Dall'Oglio Risso

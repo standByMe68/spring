@@ -30,7 +30,7 @@ import org.springframework.expression.spel.standard.SpelExpressionParser;
 import static org.junit.Assert.*;
 
 /**
- * Test usage of inline maps.
+ * com.Test usage of inline maps.
  *
  * @author Andy Clement
  * @since 4.1

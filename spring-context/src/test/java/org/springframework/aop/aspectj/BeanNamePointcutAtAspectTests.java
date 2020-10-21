@@ -29,7 +29,7 @@ import org.springframework.tests.sample.beans.TestBean;
 import static org.junit.Assert.*;
 
 /**
- * Test for correct application of the bean() PCD for &#64;AspectJ-based aspects.
+ * com.Test for correct application of the bean() PCD for &#64;AspectJ-based aspects.
  *
  * @author Ramnivas Laddad
  * @author Juergen Hoeller

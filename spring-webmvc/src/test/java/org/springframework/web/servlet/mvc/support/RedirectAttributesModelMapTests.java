@@ -33,7 +33,7 @@ import static org.junit.Assert.*;
 
 /**
  *
- * Test fixture for {@link RedirectAttributesModelMap} tests.
+ * com.Test fixture for {@link RedirectAttributesModelMap} tests.
  *
  * @author Rossen Stoyanchev
  * @since 3.1

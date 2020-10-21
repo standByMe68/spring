@@ -24,7 +24,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Test annotation which indicates that the
+ * com.Test annotation which indicates that the
  * {@link org.springframework.context.ApplicationContext ApplicationContext}
  * associated with a test is <em>dirty</em> and should therefore be closed
  * and removed from the context cache.
@@ -43,7 +43,7 @@ import java.lang.annotation.Target;
  * <p>As of Spring Framework 4.0, this annotation may be used as a
  * <em>meta-annotation</em> to create custom <em>composed annotations</em>.
  *
- * <h3>Supported Test Phases</h3>
+ * <h3>Supported com.Test Phases</h3>
  * <ul>
  * <li><strong>Before current test class</strong>: when declared at the class
  * level with class mode set to {@link ClassMode#BEFORE_CLASS BEFORE_CLASS}</li>

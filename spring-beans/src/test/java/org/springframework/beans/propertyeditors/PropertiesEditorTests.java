@@ -25,7 +25,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Test the conversion of Strings to {@link java.util.Properties} objects,
+ * com.Test the conversion of Strings to {@link java.util.Properties} objects,
  * and other property editors.
  *
  * @author Rod Johnson

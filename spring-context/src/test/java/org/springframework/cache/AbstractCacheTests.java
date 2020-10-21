@@ -178,7 +178,7 @@ public abstract class AbstractCacheTests<T extends Cache> {
 	}
 
 	/**
-	 * Test that a call to get with a Callable concurrently properly synchronize the
+	 * com.Test that a call to get with a Callable concurrently properly synchronize the
 	 * invocations.
 	 */
 	@Test

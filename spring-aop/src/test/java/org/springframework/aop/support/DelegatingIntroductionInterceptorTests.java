@@ -165,7 +165,7 @@ public class DelegatingIntroductionInterceptorTests {
 		((ITester) ts).foo();
 		((ITestBean) ts).getAge();
 
-		// Test removal
+		// com.Test removal
 		ii.suppressInterface(TimeStamped.class);
 		// Note that we need to construct a new proxy factory,
 		// or suppress the interface on the proxy factory
@@ -242,7 +242,7 @@ public class DelegatingIntroductionInterceptorTests {
 		assertEquals(time, ((TimeStamped) p1).getTimeStamp());
 	}
 
-	// Test when target implements the interface: should get interceptor by preference.
+	// com.Test when target implements the interface: should get interceptor by preference.
 	@Test
 	public void testIntroductionMasksTargetImplementation() throws Exception {
 		final long t = 1001L;

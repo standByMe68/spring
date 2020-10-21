@@ -37,7 +37,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link MappingJackson2MessageConverter}.
+ * com.Test fixture for {@link MappingJackson2MessageConverter}.
  *
  * @author Rossen Stoyanchev
  * @author Sebastien Deleuze

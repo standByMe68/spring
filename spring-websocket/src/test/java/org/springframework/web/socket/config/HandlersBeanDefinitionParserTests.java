@@ -64,7 +64,7 @@ import static org.hamcrest.Matchers.*;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for HandlersBeanDefinitionParser.
+ * com.Test fixture for HandlersBeanDefinitionParser.
  * See test configuration files websocket-config-handlers-*.xml.
  *
  * @author Brian Clozel

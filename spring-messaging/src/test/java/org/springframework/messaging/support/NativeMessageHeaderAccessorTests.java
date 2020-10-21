@@ -33,7 +33,7 @@ import org.springframework.util.MultiValueMap;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link NativeMessageHeaderAccessor}.
+ * com.Test fixture for {@link NativeMessageHeaderAccessor}.
  *
  * @author Rossen Stoyanchev
  */

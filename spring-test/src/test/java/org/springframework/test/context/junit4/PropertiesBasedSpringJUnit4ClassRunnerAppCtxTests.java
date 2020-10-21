@@ -71,7 +71,7 @@ public class PropertiesBasedSpringJUnit4ClassRunnerAppCtxTests {
 		assertEquals("Garfield", this.cat.getName());
 
 		assertNotNull("The testString field should have been autowired.", this.testString);
-		assertEquals("Test String", this.testString);
+		assertEquals("com.Test String", this.testString);
 	}
 
 }

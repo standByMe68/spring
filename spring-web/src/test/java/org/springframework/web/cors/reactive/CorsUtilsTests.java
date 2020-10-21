@@ -31,7 +31,7 @@ import static org.junit.Assert.*;
 import static org.springframework.mock.http.server.reactive.test.MockServerHttpRequest.*;
 
 /**
- * Test case for reactive {@link CorsUtils}.
+ * com.Test case for reactive {@link CorsUtils}.
  * @author Sebastien Deleuze
  * @author Rossen Stoyanchev
  */

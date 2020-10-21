@@ -837,7 +837,7 @@ public class BridgeMethodResolverTests {
 
 
 	//-----------------------------
-	// SPR-2454 Test Classes
+	// SPR-2454 com.Test Classes
 	//-----------------------------
 
 	public interface SimpleGenericRepository<T> {

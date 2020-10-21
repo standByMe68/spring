@@ -36,7 +36,7 @@ import org.springframework.web.servlet.mvc.annotation.ModelAndViewResolver;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link ModelAndViewResolverMethodReturnValueHandler}.
+ * com.Test fixture with {@link ModelAndViewResolverMethodReturnValueHandler}.
  *
  * @author Rossen Stoyanchev
  */

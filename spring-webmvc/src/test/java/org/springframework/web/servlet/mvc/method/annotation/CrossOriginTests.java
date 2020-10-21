@@ -59,7 +59,7 @@ import static org.hamcrest.CoreMatchers.*;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link CrossOrigin @CrossOrigin} annotated methods.
+ * com.Test fixture for {@link CrossOrigin @CrossOrigin} annotated methods.
  *
  * @author Sebastien Deleuze
  * @author Sam Brannen

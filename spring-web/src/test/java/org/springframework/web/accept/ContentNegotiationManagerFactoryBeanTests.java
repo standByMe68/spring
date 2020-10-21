@@ -36,7 +36,7 @@ import org.springframework.web.context.request.ServletWebRequest;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link ContentNegotiationManagerFactoryBean} tests.
+ * com.Test fixture for {@link ContentNegotiationManagerFactoryBean} tests.
  *
  * @author Rossen Stoyanchev
  */

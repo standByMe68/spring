@@ -64,7 +64,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 /**
- * Test fixture for {@link WebSocketMessageBrokerConfigurationSupport}.
+ * com.Test fixture for {@link WebSocketMessageBrokerConfigurationSupport}.
  *
  * @author Rossen Stoyanchev
  */

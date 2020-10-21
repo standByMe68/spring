@@ -34,7 +34,7 @@ import org.springframework.web.socket.messaging.SubProtocolWebSocketHandler;
 import org.springframework.web.util.UrlPathHelper;
 
 /**
- * Test fixture for
+ * com.Test fixture for
  * {@link org.springframework.web.socket.config.annotation.WebMvcStompEndpointRegistry}.
  *
  * @author Rossen Stoyanchev

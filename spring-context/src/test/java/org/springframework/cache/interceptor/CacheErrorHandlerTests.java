@@ -69,7 +69,7 @@ public class CacheErrorHandlerTests {
 
 	@Test
 	public void getFail() {
-		UnsupportedOperationException exception = new UnsupportedOperationException("Test exception on get");
+		UnsupportedOperationException exception = new UnsupportedOperationException("com.Test exception on get");
 		willThrow(exception).given(this.cache).get(0L);
 
 		Object result = this.simpleService.get(0L);
@@ -80,7 +80,7 @@ public class CacheErrorHandlerTests {
 
 	@Test
 	public void getAndPutFail() {
-		UnsupportedOperationException exception = new UnsupportedOperationException("Test exception on get");
+		UnsupportedOperationException exception = new UnsupportedOperationException("com.Test exception on get");
 		willThrow(exception).given(this.cache).get(0L);
 		willThrow(exception).given(this.cache).put(0L, 0L); // Update of the cache will fail as well
 
@@ -95,7 +95,7 @@ public class CacheErrorHandlerTests {
 
 	@Test
 	public void getFailProperException() {
-		UnsupportedOperationException exception = new UnsupportedOperationException("Test exception on get");
+		UnsupportedOperationException exception = new UnsupportedOperationException("com.Test exception on get");
 		willThrow(exception).given(this.cache).get(0L);
 
 		this.cacheInterceptor.setErrorHandler(new SimpleCacheErrorHandler());
@@ -106,7 +106,7 @@ public class CacheErrorHandlerTests {
 
 	@Test
 	public void putFail() {
-		UnsupportedOperationException exception = new UnsupportedOperationException("Test exception on put");
+		UnsupportedOperationException exception = new UnsupportedOperationException("com.Test exception on put");
 		willThrow(exception).given(this.cache).put(0L, 0L);
 
 		this.simpleService.put(0L);
@@ -115,7 +115,7 @@ public class CacheErrorHandlerTests {
 
 	@Test
 	public void putFailProperException() {
-		UnsupportedOperationException exception = new UnsupportedOperationException("Test exception on put");
+		UnsupportedOperationException exception = new UnsupportedOperationException("com.Test exception on put");
 		willThrow(exception).given(this.cache).put(0L, 0L);
 
 		this.cacheInterceptor.setErrorHandler(new SimpleCacheErrorHandler());
@@ -126,7 +126,7 @@ public class CacheErrorHandlerTests {
 
 	@Test
 	public void evictFail() {
-		UnsupportedOperationException exception = new UnsupportedOperationException("Test exception on evict");
+		UnsupportedOperationException exception = new UnsupportedOperationException("com.Test exception on evict");
 		willThrow(exception).given(this.cache).evict(0L);
 
 		this.simpleService.evict(0L);
@@ -135,7 +135,7 @@ public class CacheErrorHandlerTests {
 
 	@Test
 	public void evictFailProperException() {
-		UnsupportedOperationException exception = new UnsupportedOperationException("Test exception on evict");
+		UnsupportedOperationException exception = new UnsupportedOperationException("com.Test exception on evict");
 		willThrow(exception).given(this.cache).evict(0L);
 
 		this.cacheInterceptor.setErrorHandler(new SimpleCacheErrorHandler());
@@ -146,7 +146,7 @@ public class CacheErrorHandlerTests {
 
 	@Test
 	public void clearFail() {
-		UnsupportedOperationException exception = new UnsupportedOperationException("Test exception on evict");
+		UnsupportedOperationException exception = new UnsupportedOperationException("com.Test exception on evict");
 		willThrow(exception).given(this.cache).clear();
 
 		this.simpleService.clear();
@@ -155,7 +155,7 @@ public class CacheErrorHandlerTests {
 
 	@Test
 	public void clearFailProperException() {
-		UnsupportedOperationException exception = new UnsupportedOperationException("Test exception on evict");
+		UnsupportedOperationException exception = new UnsupportedOperationException("com.Test exception on evict");
 		willThrow(exception).given(this.cache).clear();
 
 		this.cacheInterceptor.setErrorHandler(new SimpleCacheErrorHandler());

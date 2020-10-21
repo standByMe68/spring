@@ -37,7 +37,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link WebSocketConnectionManager}.
+ * com.Test fixture for {@link WebSocketConnectionManager}.
  *
  * @author Rossen Stoyanchev
  */

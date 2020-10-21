@@ -34,7 +34,7 @@ import org.springframework.core.annotation.AliasFor;
  * for integration tests.
  *
  * <h3>Precedence</h3>
- * <p>Test property sources have higher precedence than those loaded from the
+ * <p>com.Test property sources have higher precedence than those loaded from the
  * operating system's environment or Java system properties as well as property
  * sources added by the application declaratively via
  * {@link org.springframework.context.annotation.PropertySource @PropertySource}

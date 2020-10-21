@@ -58,7 +58,7 @@ import org.springframework.beans.factory.support.RootBeanDefinition;
 import static org.junit.Assert.*;
 
 /**
- * Test class for {@link SpringHandlerInstantiatorTests}.
+ * com.Test class for {@link SpringHandlerInstantiatorTests}.
  *
  * @author Sebastien Deleuze
  */

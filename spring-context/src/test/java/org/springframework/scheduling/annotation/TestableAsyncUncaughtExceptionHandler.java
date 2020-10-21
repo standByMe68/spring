@@ -50,7 +50,7 @@ class TestableAsyncUncaughtExceptionHandler
 		descriptor = new UncaughtExceptionDescriptor(ex, method);
 		this.latch.countDown();
 		if (throwUnexpectedException) {
-			throw new IllegalStateException("Test exception");
+			throw new IllegalStateException("com.Test exception");
 		}
 	}
 

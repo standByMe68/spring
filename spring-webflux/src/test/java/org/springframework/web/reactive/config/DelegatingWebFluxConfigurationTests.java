@@ -38,7 +38,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link DelegatingWebFluxConfiguration} tests.
+ * com.Test fixture for {@link DelegatingWebFluxConfiguration} tests.
  *
  * @author Brian Clozel
  */

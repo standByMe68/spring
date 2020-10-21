@@ -24,7 +24,7 @@ import org.springframework.expression.spel.standard.SpelExpressionParser;
 import static org.junit.Assert.*;
 
 /**
- * Test construction of arrays.
+ * com.Test construction of arrays.
  *
  * @author Andy Clement
  */

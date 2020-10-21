@@ -188,7 +188,7 @@ public class JmsTemplateTests {
 	}
 
 	/**
-	 * Test the method execute(SessionCallback action).
+	 * com.Test the method execute(SessionCallback action).
 	 */
 	@Test
 	public void testSessionCallback() throws Exception {
@@ -264,7 +264,7 @@ public class JmsTemplateTests {
 	}
 
 	/**
-	 * Test sending to a destination using the method
+	 * com.Test sending to a destination using the method
 	 * send(Destination d, MessageCreator messageCreator)
 	 */
 	@Test
@@ -273,7 +273,7 @@ public class JmsTemplateTests {
 	}
 
 	/**
-	 * Test sending to a destination using the method
+	 * com.Test sending to a destination using the method
 	 * send(String d, MessageCreator messageCreator)
 	 */
 	@Test
@@ -282,7 +282,7 @@ public class JmsTemplateTests {
 	}
 
 	/**
-	 * Test sending to a destination using the method
+	 * com.Test sending to a destination using the method
 	 * send(Destination d, MessageCreator messageCreator) using QOS parameters.
 	 */
 	@Test
@@ -291,7 +291,7 @@ public class JmsTemplateTests {
 	}
 
 	/**
-	 * Test sending to a destination using the method
+	 * com.Test sending to a destination using the method
 	 * send(String d, MessageCreator messageCreator) using QOS parameters.
 	 */
 	@Test
@@ -300,7 +300,7 @@ public class JmsTemplateTests {
 	}
 
 	/**
-	 * Test sending to the default destination.
+	 * com.Test sending to the default destination.
 	 */
 	@Test
 	public void testSendDefaultDestination() throws Exception {
@@ -308,7 +308,7 @@ public class JmsTemplateTests {
 	}
 
 	/**
-	 * Test sending to the default destination name.
+	 * com.Test sending to the default destination name.
 	 */
 	@Test
 	public void testSendDefaultDestinationName() throws Exception {
@@ -316,7 +316,7 @@ public class JmsTemplateTests {
 	}
 
 	/**
-	 * Test sending to the default destination using explicit QOS parameters.
+	 * com.Test sending to the default destination using explicit QOS parameters.
 	 */
 	@Test
 	public void testSendDefaultDestinationWithQOS() throws Exception {
@@ -324,7 +324,7 @@ public class JmsTemplateTests {
 	}
 
 	/**
-	 * Test sending to the default destination name using explicit QOS parameters.
+	 * com.Test sending to the default destination name using explicit QOS parameters.
 	 */
 	@Test
 	public void testSendDefaultDestinationNameWithQOS() throws Exception {

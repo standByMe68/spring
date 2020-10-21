@@ -32,7 +32,7 @@ import org.springframework.mock.web.test.MockHttpServletResponse;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for {@link FormContentFilter}.
+ * com.Test fixture for {@link FormContentFilter}.
  *
  * @author Rossen Stoyanchev
  */

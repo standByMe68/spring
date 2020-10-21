@@ -34,7 +34,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 
 /**
- * Test fixture for
+ * com.Test fixture for
  * {@link org.springframework.messaging.simp.broker.DefaultSubscriptionRegistry}.
  *
  * @author Rossen Stoyanchev

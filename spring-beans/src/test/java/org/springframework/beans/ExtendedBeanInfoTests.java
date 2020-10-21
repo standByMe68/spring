@@ -762,7 +762,7 @@ public class ExtendedBeanInfoTests {
 
 	/**
 	 * {@link BeanInfo#getPropertyDescriptors()} returns alphanumerically sorted.
-	 * Test that {@link ExtendedBeanInfo#getPropertyDescriptors()} does the same.
+	 * com.Test that {@link ExtendedBeanInfo#getPropertyDescriptors()} does the same.
 	 */
 	@Test
 	public void propertyDescriptorOrderIsEqual() throws IntrospectionException {

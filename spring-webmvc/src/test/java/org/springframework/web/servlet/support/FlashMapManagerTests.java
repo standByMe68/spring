@@ -36,7 +36,7 @@ import org.springframework.web.util.WebUtils;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for testing {@link AbstractFlashMapManager} methods.
+ * com.Test fixture for testing {@link AbstractFlashMapManager} methods.
  *
  * @author Rossen Stoyanchev
  * @author Sam Brannen

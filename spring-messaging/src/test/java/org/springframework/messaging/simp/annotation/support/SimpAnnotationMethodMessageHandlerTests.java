@@ -73,7 +73,7 @@ import static org.mockito.BDDMockito.any;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for
+ * com.Test fixture for
  * {@link org.springframework.messaging.simp.annotation.support.SimpAnnotationMethodMessageHandler}.
  *
  * @author Rossen Stoyanchev

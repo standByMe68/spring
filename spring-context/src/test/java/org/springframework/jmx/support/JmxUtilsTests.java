@@ -103,7 +103,7 @@ public class JmxUtilsTests {
 
 	@Test
 	public void testAppendIdentityToObjectName() throws MalformedObjectNameException {
-		ObjectName objectName = ObjectNameManager.getInstance("spring:type=Test");
+		ObjectName objectName = ObjectNameManager.getInstance("spring:type=com.Test");
 		Object managedResource = new Object();
 		ObjectName uniqueName = JmxUtils.appendIdentityToObjectName(objectName, managedResource);
 

@@ -29,7 +29,7 @@ import org.springframework.web.context.request.ServletWebRequest;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture for HeaderContentNegotiationStrategy tests.
+ * com.Test fixture for HeaderContentNegotiationStrategy tests.
  *
  * @author Rossen Stoyanchev
  * @author Juergen Hoeller

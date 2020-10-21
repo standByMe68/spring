@@ -34,7 +34,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 /**
- * Test fixture for {@link AbstractHttpSendingTransportHandler} and sub-classes.
+ * com.Test fixture for {@link AbstractHttpSendingTransportHandler} and sub-classes.
  *
  * @author Rossen Stoyanchev
  */

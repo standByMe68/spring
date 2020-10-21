@@ -130,7 +130,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	/**
 	 * Name of the MessageSource bean in the factory.
 	 * If none is supplied, message resolution is delegated to the parent.
-	 * @see MessageSource
+	 * @see MessageSource  用于提过国际化访问接口
 	 */
 	public static final String MESSAGE_SOURCE_BEAN_NAME = "messageSource";
 
@@ -154,6 +154,8 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	static {
 		// Eagerly load the ContextClosedEvent class to avoid weird classloader issues
 		// on application shutdown in WebLogic 8.1. (Reported by Dustin Woods.)
+		//急切地加载ContextClosedEvent类以避免奇怪的类加载器问题
+		//在WebLogic8.1中关闭应用程序时。
 		ContextClosedEvent.class.getName();
 	}
 
@@ -234,6 +236,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 */
 	public AbstractApplicationContext(@Nullable ApplicationContext parent) {
 		this();
+		//如果父类存在，将父类的环境与当前的环境进行融合merge
 		setParent(parent);
 	}
 
@@ -314,6 +317,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	@Override
 	public ConfigurableEnvironment getEnvironment() {
 		if (this.environment == null) {
+			// 创建当前环境
 			this.environment = createEnvironment();
 		}
 		return this.environment;
@@ -325,6 +329,7 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 * a custom {@link ConfigurableEnvironment} implementation.
 	 */
 	protected ConfigurableEnvironment createEnvironment() {
+		// 创建当前的标准环境
 		return new StandardEnvironment();
 	}
 
@@ -514,10 +519,10 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	@Override
 	public void refresh() throws BeansException, IllegalStateException {
 		synchronized (this.startupShutdownMonitor) {
-			// Prepare this context for refreshing.
+			// Prepare this context for refreshing. 准备刷新此上下文
 			prepareRefresh();
 
-			// Tell the subclass to refresh the internal bean factory.
+			//  告诉子类刷新bean工厂  生成一个bean工厂（可配置的聪明的bean工厂）
 			ConfigurableListableBeanFactory beanFactory = obtainFreshBeanFactory();
 
 			// Prepare the bean factory for use in this context.
@@ -581,11 +586,14 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 	 * active flag as well as performing any initialization of property sources.
 	 */
 	protected void prepareRefresh() {
-		// Switch to active.
+		// Switch to active.  切换到激活状态
 		this.startupDate = System.currentTimeMillis();
+		// 当前状态是否是关闭
 		this.closed.set(false);
+		// 当前状态是否是激活
 		this.active.set(true);
 
+		// 当前如果是Debug日志
 		if (logger.isDebugEnabled()) {
 			if (logger.isTraceEnabled()) {
 				logger.trace("Refreshing " + this);
@@ -595,10 +603,10 @@ public abstract class AbstractApplicationContext extends DefaultResourceLoader
 			}
 		}
 
-		// Initialize any placeholder property sources in the context environment.
+		// Initialize any placeholder(占位符) property sources in the context environment.
 		initPropertySources();
 
-		// Validate that all properties marked as required are resolvable:
+		// Validate that all properties marked as required are resolvable:判断左右的属性那些是需要解析的
 		// see ConfigurablePropertyResolver#setRequiredProperties
 		getEnvironment().validateRequiredProperties();
 

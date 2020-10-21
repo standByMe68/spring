@@ -580,7 +580,7 @@ public class StringUtilsTests {
 		doTestCommaDelimitedListToStringArrayLegalMatch(sa);
 		doTestStringArrayReverseTransformationMatches(sa);
 
-		// Test same words
+		// com.Test same words
 		sa = new String[] {"AA", "AA", "AA", "AA", "AA"};
 		doTestCommaDelimitedListToStringArrayLegalMatch(sa);
 		doTestStringArrayReverseTransformationMatches(sa);

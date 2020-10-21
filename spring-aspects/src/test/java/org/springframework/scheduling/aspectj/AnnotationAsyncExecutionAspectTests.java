@@ -119,7 +119,7 @@ public class AnnotationAsyncExecutionAspectTests {
 	}
 
 	/*
-	@Test
+	@com.Test
 	public void methodReturningNonVoidNonFutureInAsyncClassGetsRoutedSynchronously() {
 		ClassWithAsyncAnnotation obj = new ClassWithAsyncAnnotation();
 		int returnValue = obj.return5();

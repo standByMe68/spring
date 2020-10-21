@@ -3269,7 +3269,7 @@ public class SpelCompilationCoverageTests extends AbstractExpressionTests {
 
 
 	/**
-	 * Test variants of using T(...) and static/non-static method/property/field references.
+	 * com.Test variants of using T(...) and static/non-static method/property/field references.
 	 */
 	@Test
 	public void constructorReference_SPR13781() {

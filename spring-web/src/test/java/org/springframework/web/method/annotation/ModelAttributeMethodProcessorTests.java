@@ -46,7 +46,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture with {@link ModelAttributeMethodProcessor}.
+ * com.Test fixture with {@link ModelAttributeMethodProcessor}.
  *
  * @author Rossen Stoyanchev
  */

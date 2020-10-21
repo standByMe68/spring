@@ -47,7 +47,7 @@ import static org.mockito.BDDMockito.*;
 public class EntityManagerFactoryUtilsTests {
 
 	/*
-	 * Test method for
+	 * com.Test method for
 	 * 'org.springframework.orm.jpa.EntityManagerFactoryUtils.doGetEntityManager(EntityManagerFactory)'
 	 */
 	@Test
@@ -115,7 +115,7 @@ public class EntityManagerFactoryUtilsTests {
 	}
 
 	/*
-	 * Test method for
+	 * com.Test method for
 	 * 'org.springframework.orm.jpa.EntityManagerFactoryUtils.convertJpaAccessException(PersistenceException)'
 	 */
 	@Test

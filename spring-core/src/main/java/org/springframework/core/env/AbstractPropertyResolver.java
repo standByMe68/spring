@@ -141,6 +141,9 @@ public abstract class AbstractPropertyResolver implements ConfigurablePropertyRe
 		}
 	}
 
+	/**
+	 * 用于判断当前配置中缺少那些配置
+	 */
 	@Override
 	public void validateRequiredProperties() {
 		MissingRequiredPropertiesException ex = new MissingRequiredPropertiesException();

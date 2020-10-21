@@ -88,7 +88,7 @@ public class SpringJUnit4ConcurrencyTests {
 			BasicAnnotationConfigWacSpringRuleTests.class,
 			RequestAndSessionScopedBeansWacTests.class,
 			WebSocketServletServerContainerFactoryBeanTests.class,
-		// Spring MVC Test
+		// Spring MVC com.Test
 			JavaConfigTests.class,
 			WebAppResourceTests.class,
 			SampleTests.class

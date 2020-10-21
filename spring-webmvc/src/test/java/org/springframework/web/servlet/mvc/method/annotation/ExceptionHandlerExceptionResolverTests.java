@@ -53,7 +53,7 @@ import org.springframework.web.util.NestedServletException;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link ExceptionHandlerExceptionResolver}.
+ * com.Test fixture with {@link ExceptionHandlerExceptionResolver}.
  *
  * @author Rossen Stoyanchev
  * @author Arjen Poutsma

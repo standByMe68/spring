@@ -84,7 +84,7 @@ public abstract class AbstractJmsAnnotationDrivenTests {
 
 
 	/**
-	 * Test for {@link SampleBean} discovery. If a factory with the default name
+	 * com.Test for {@link SampleBean} discovery. If a factory with the default name
 	 * is set, an endpoint will use it automatically
 	 */
 	public void testSampleConfiguration(ApplicationContext context) {
@@ -97,7 +97,7 @@ public abstract class AbstractJmsAnnotationDrivenTests {
 	}
 
 	/**
-	 * Test for {@link FullBean} discovery. In this case, no default is set because
+	 * com.Test for {@link FullBean} discovery. In this case, no default is set because
 	 * all endpoints provide a default registry. This shows that the default factory
 	 * is only retrieved if it needs to be.
 	 */
@@ -120,7 +120,7 @@ public abstract class AbstractJmsAnnotationDrivenTests {
 	}
 
 	/**
-	 * Test for {@link CustomBean} and an manually endpoint registered
+	 * com.Test for {@link CustomBean} and an manually endpoint registered
 	 * with "myCustomEndpointId". The custom endpoint does not provide
 	 * any factory so it's registered with the default one
 	 */
@@ -149,7 +149,7 @@ public abstract class AbstractJmsAnnotationDrivenTests {
 	}
 
 	/**
-	 * Test for {@link DefaultBean} that does not define the container
+	 * com.Test for {@link DefaultBean} that does not define the container
 	 * factory to use as a default is registered with an explicit
 	 * default.
 	 */
@@ -160,7 +160,7 @@ public abstract class AbstractJmsAnnotationDrivenTests {
 	}
 
 	/**
-	 * Test for {@link DefaultBean} that does not define the container
+	 * com.Test for {@link DefaultBean} that does not define the container
 	 * factory to use as a default is registered with the default name.
 	 */
 	public void testDefaultContainerFactoryConfiguration(ApplicationContext context) {
@@ -170,7 +170,7 @@ public abstract class AbstractJmsAnnotationDrivenTests {
 	}
 
 	/**
-	 * Test for {@link ValidationBean} with a validator ({@link TestValidator}) specified
+	 * com.Test for {@link ValidationBean} with a validator ({@link TestValidator}) specified
 	 * in a custom {@link org.springframework.messaging.handler.annotation.support.MessageHandlerMethodFactory}.
 	 *
 	 * The test should throw a {@link org.springframework.jms.listener.adapter.ListenerExecutionFailedException}
@@ -189,7 +189,7 @@ public abstract class AbstractJmsAnnotationDrivenTests {
 	}
 
 	/**
-	 * Test for {@link JmsListenerRepeatableBean} and {@link JmsListenersBean} that validates that the
+	 * com.Test for {@link JmsListenerRepeatableBean} and {@link JmsListenersBean} that validates that the
 	 * {@code @JmsListener} annotation is repeatable and generate one specific container per annotation.
 	 */
 	public void testJmsListenerRepeatable(ApplicationContext context) {

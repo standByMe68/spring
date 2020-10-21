@@ -73,7 +73,7 @@ public class JdkDynamicProxyTests extends AbstractAopProxyTests implements Seria
 
 	@Test
 	public void testInterceptorIsInvokedWithNoTarget() {
-		// Test return value
+		// com.Test return value
 		final int age = 25;
 		MethodInterceptor mi = (invocation -> age);
 

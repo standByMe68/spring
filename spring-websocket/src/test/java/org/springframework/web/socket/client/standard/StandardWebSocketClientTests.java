@@ -40,7 +40,7 @@ import org.springframework.web.socket.WebSocketSession;
 import org.springframework.web.socket.handler.AbstractWebSocketHandler;
 
 /**
- * Test fixture for {@link StandardWebSocketClient}.
+ * com.Test fixture for {@link StandardWebSocketClient}.
  *
  * @author Rossen Stoyanchev
  */

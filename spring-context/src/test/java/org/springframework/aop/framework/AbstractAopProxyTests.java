@@ -395,7 +395,7 @@ public abstract class AbstractAopProxyTests {
 	 */
 	private void testContext(final boolean context) throws Throwable {
 		final String s = "foo";
-		// Test return value
+		// com.Test return value
 		MethodInterceptor mi = new MethodInterceptor() {
 			@Override
 			public Object invoke(MethodInvocation invocation) throws Throwable {
@@ -426,12 +426,12 @@ public abstract class AbstractAopProxyTests {
 	}
 
 	/**
-	 * Test that the proxy returns itself when the
+	 * com.Test that the proxy returns itself when the
 	 * target returns {@code this}
 	 */
 	@Test
 	public void testTargetReturnsThis() throws Throwable {
-		// Test return value
+		// com.Test return value
 		TestBean raw = new OwnSpouse();
 
 		ProxyCreatorSupport pc = new ProxyCreatorSupport();
@@ -445,7 +445,7 @@ public abstract class AbstractAopProxyTests {
 	@Test
 	public void testDeclaredException() throws Throwable {
 		final Exception expectedException = new Exception();
-		// Test return value
+		// com.Test return value
 		MethodInterceptor mi = new MethodInterceptor() {
 			@Override
 			public Object invoke(MethodInvocation invocation) throws Throwable {
@@ -480,7 +480,7 @@ public abstract class AbstractAopProxyTests {
 	@Test
 	public void testUndeclaredCheckedException() throws Throwable {
 		final Exception unexpectedException = new Exception();
-		// Test return value
+		// com.Test return value
 		MethodInterceptor mi = new MethodInterceptor() {
 			@Override
 			public Object invoke(MethodInvocation invocation) throws Throwable {
@@ -513,7 +513,7 @@ public abstract class AbstractAopProxyTests {
 	@Test
 	public void testUndeclaredUncheckedException() throws Throwable {
 		final RuntimeException unexpectedException = new RuntimeException();
-		// Test return value
+		// com.Test return value
 		MethodInterceptor mi = new MethodInterceptor() {
 			@Override
 			public Object invoke(MethodInvocation invocation) throws Throwable {
@@ -595,7 +595,7 @@ public abstract class AbstractAopProxyTests {
 	}
 
 	/**
-	 * Test stateful interceptor
+	 * com.Test stateful interceptor
 	 */
 	@Test
 	public void testMixinWithIntroductionAdvisor() throws Throwable {

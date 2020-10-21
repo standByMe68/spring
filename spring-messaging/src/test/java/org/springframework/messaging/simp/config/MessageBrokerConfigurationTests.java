@@ -81,7 +81,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 /**
- * Test fixture for {@link AbstractMessageBrokerConfiguration}.
+ * com.Test fixture for {@link AbstractMessageBrokerConfiguration}.
  *
  * @author Rossen Stoyanchev
  * @author Brian Clozel

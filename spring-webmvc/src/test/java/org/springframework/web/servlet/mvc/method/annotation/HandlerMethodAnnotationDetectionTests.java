@@ -53,7 +53,7 @@ import org.springframework.web.servlet.ModelAndView;
 import static org.junit.Assert.*;
 
 /**
- * Test various scenarios for detecting method-level and method parameter annotations depending
+ * com.Test various scenarios for detecting method-level and method parameter annotations depending
  * on where they are located -- on interfaces, parent classes, in parameterized methods, or in
  * combination with proxies.
  *

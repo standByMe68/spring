@@ -21,7 +21,7 @@ import org.junit.runners.Suite;
 import org.junit.runners.Suite.SuiteClasses;
 
 /**
- * Test suite to investigate claims raised in
+ * com.Test suite to investigate claims raised in
  * <a href="https://jira.spring.io/browse/SPR-8849">SPR-8849</a>.
  *
  * <h3>Work Around</h3>

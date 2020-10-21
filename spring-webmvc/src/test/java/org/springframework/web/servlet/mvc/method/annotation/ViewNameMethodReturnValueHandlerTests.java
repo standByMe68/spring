@@ -29,7 +29,7 @@ import org.springframework.web.servlet.mvc.support.RedirectAttributesModelMap;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link ViewNameMethodReturnValueHandler}.
+ * com.Test fixture with {@link ViewNameMethodReturnValueHandler}.
  *
  * @author Rossen Stoyanchev
  */

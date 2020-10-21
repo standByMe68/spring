@@ -77,7 +77,7 @@ public class ContentRequestMatchersTests {
 	public void testStringNoMatch() throws Exception {
 		this.request.getBody().write("test".getBytes());
 
-		MockRestRequestMatchers.content().string("Test").match(this.request);
+		MockRestRequestMatchers.content().string("com.Test").match(this.request);
 	}
 
 	@Test
@@ -92,7 +92,7 @@ public class ContentRequestMatchersTests {
 	public void testBytesNoMatch() throws Exception {
 		this.request.getBody().write("test".getBytes());
 
-		MockRestRequestMatchers.content().bytes("Test".getBytes()).match(this.request);
+		MockRestRequestMatchers.content().bytes("com.Test".getBytes()).match(this.request);
 	}
 
 	@Test

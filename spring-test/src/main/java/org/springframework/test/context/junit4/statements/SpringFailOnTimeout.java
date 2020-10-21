@@ -92,7 +92,7 @@ public class SpringFailOnTimeout extends Statement {
 			long elapsed = System.currentTimeMillis() - startTime;
 			if (elapsed > this.timeout) {
 				throw new TimeoutException(
-						String.format("Test took %s ms; limit was %s ms.", elapsed, this.timeout));
+						String.format("com.Test took %s ms; limit was %s ms.", elapsed, this.timeout));
 			}
 		}
 	}

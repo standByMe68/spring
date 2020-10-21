@@ -47,7 +47,7 @@ public class RuleBasedTransactionAttributeTests {
 	}
 
 	/**
-	 * Test one checked exception that should roll back.
+	 * com.Test one checked exception that should roll back.
 	 */
 	@Test
 	public void testRuleForRollbackOnChecked() {

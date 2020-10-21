@@ -134,7 +134,7 @@ public abstract class AbstractDecoderTestCase<D extends Decoder<?>>
 	}
 
 	/**
-	 * Test a standard {@link Decoder#decode decode} scenario. For example:
+	 * com.Test a standard {@link Decoder#decode decode} scenario. For example:
 	 * <pre class="code">
 	 * byte[] bytes1 = ...
 	 * byte[] bytes2 = ...
@@ -161,7 +161,7 @@ public abstract class AbstractDecoderTestCase<D extends Decoder<?>>
 	}
 
 	/**
-	 * Test a standard {@link Decoder#decode decode} scenario. For example:
+	 * com.Test a standard {@link Decoder#decode decode} scenario. For example:
 	 * <pre class="code">
 	 * byte[] bytes1 = ...
 	 * byte[] bytes2 = ...
@@ -194,7 +194,7 @@ public abstract class AbstractDecoderTestCase<D extends Decoder<?>>
 	}
 
 	/**
-	 * Test a {@link Decoder#decode decode} scenario where the input stream contains an error.
+	 * com.Test a {@link Decoder#decode decode} scenario where the input stream contains an error.
 	 * This test method will feed the first element of the {@code input} stream to the decoder,
 	 * followed by an {@link InputException}.
 	 * The result is expected to contain one "normal" element, followed by the error.
@@ -219,7 +219,7 @@ public abstract class AbstractDecoderTestCase<D extends Decoder<?>>
 	}
 
 	/**
-	 * Test a {@link Decoder#decode decode} scenario where the input stream is canceled.
+	 * com.Test a {@link Decoder#decode decode} scenario where the input stream is canceled.
 	 * This test method will feed the first element of the {@code input} stream to the decoder,
 	 * followed by a cancel signal.
 	 * The result is expected to contain one "normal" element.
@@ -237,7 +237,7 @@ public abstract class AbstractDecoderTestCase<D extends Decoder<?>>
 	}
 
 	/**
-	 * Test a {@link Decoder#decode decode} scenario where the input stream is empty.
+	 * com.Test a {@link Decoder#decode decode} scenario where the input stream is empty.
 	 * The output is expected to be empty as well.
 	 *
 	 * @param outputType the desired output type
@@ -303,7 +303,7 @@ public abstract class AbstractDecoderTestCase<D extends Decoder<?>>
 	}
 
 	/**
-	 * Test a standard {@link Decoder#decodeToMono) decode} scenario. For example:
+	 * com.Test a standard {@link Decoder#decodeToMono) decode} scenario. For example:
 	 * <pre class="code">
 	 * byte[] bytes1 = ...
 	 * byte[] bytes2 = ...
@@ -330,7 +330,7 @@ public abstract class AbstractDecoderTestCase<D extends Decoder<?>>
 	}
 
 	/**
-	 * Test a standard {@link Decoder#decodeToMono) decode} scenario. For example:
+	 * com.Test a standard {@link Decoder#decodeToMono) decode} scenario. For example:
 	 * <pre class="code">
 	 * byte[] bytes1 = ...
 	 * byte[] bytes2 = ...
@@ -363,7 +363,7 @@ public abstract class AbstractDecoderTestCase<D extends Decoder<?>>
 	}
 
 	/**
-	 * Test a {@link Decoder#decodeToMono decode} scenario where the input stream contains an error.
+	 * com.Test a {@link Decoder#decodeToMono decode} scenario where the input stream contains an error.
 	 * This test method will feed the first element of the {@code input} stream to the decoder,
 	 * followed by an {@link InputException}.
 	 * The result is expected to contain the error.
@@ -383,7 +383,7 @@ public abstract class AbstractDecoderTestCase<D extends Decoder<?>>
 	}
 
 	/**
-	 * Test a {@link Decoder#decodeToMono decode} scenario where the input stream is canceled.
+	 * com.Test a {@link Decoder#decodeToMono decode} scenario where the input stream is canceled.
 	 * This test method will immediately cancel the output stream.
 	 *
 	 * @param input the input to be provided to the decoder
@@ -399,7 +399,7 @@ public abstract class AbstractDecoderTestCase<D extends Decoder<?>>
 	}
 
 	/**
-	 * Test a {@link Decoder#decodeToMono decode} scenario where the input stream is empty.
+	 * com.Test a {@link Decoder#decodeToMono decode} scenario where the input stream is empty.
 	 * The output is expected to be empty as well.
 	 *
 	 * @param outputType the desired output type

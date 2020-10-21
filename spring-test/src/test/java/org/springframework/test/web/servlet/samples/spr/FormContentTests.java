@@ -29,7 +29,7 @@ import static org.springframework.test.web.servlet.request.MockMvcRequestBuilder
 import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.*;
 
 /**
- * Test for issues related to form content.
+ * com.Test for issues related to form content.
  *
  * @author Rossen Stoyanchev
  */

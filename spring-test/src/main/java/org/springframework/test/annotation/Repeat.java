@@ -23,7 +23,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Test annotation to indicate that a test method should be invoked repeatedly.
+ * com.Test annotation to indicate that a test method should be invoked repeatedly.
  *
  * <p>Note that the scope of execution to be repeated includes execution of the
  * test method itself as well as any <em>set up</em> or <em>tear down</em> of

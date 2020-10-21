@@ -226,7 +226,7 @@ public class StandaloneMockMvcBuilder extends AbstractMockMvcBuilder<StandaloneM
 	}
 
 	/**
-	 * Specify the timeout value for async execution. In Spring MVC Test, this
+	 * Specify the timeout value for async execution. In Spring MVC com.Test, this
 	 * value is used to determine how to long to wait for async execution to
 	 * complete so that a test can verify the results synchronously.
 	 * @param timeout the timeout value in milliseconds

@@ -317,8 +317,8 @@ public class ReflectionHelperTests extends AbstractExpressionTests {
 		assertTrue(rpa.canRead(ctx, t, "xY"));
 
 		// SPR-10122, ReflectivePropertyAccessor JavaBean property names compliance tests - setters
-		rpa.write(ctx, t, "pEBS", "Test String");
-		assertEquals("Test String",rpa.read(ctx, t, "pEBS").getValue());
+		rpa.write(ctx, t, "pEBS", "com.Test String");
+		assertEquals("com.Test String",rpa.read(ctx, t, "pEBS").getValue());
 	}
 
 	@Test

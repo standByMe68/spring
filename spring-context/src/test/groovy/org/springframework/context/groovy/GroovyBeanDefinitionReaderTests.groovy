@@ -604,10 +604,10 @@ class GroovyBeanDefinitionReaderTests {
 			homer(beanFactory:"newInstance", "homer") {
 				age = 45
 			}
-			//Test with no closure body
+			//com.Test with no closure body
 			marge(beanFactory:"newInstance", "marge")
 
-			//Test more verbose method
+			//com.Test more verbose method
 			mcBain("mcBain"){
 				bean ->
 				bean.factoryBean="beanFactory"

@@ -103,7 +103,7 @@ public class TransactionalEventListenerTests {
 			});
 		}
 		catch (IllegalStateException e) {
-			assertTrue(e.getMessage().contains("Test exception"));
+			assertTrue(e.getMessage().contains("com.Test exception"));
 			assertTrue(e.getMessage().contains(EventCollector.IMMEDIATELY));
 		}
 		getEventCollector().assertEvents(EventCollector.IMMEDIATELY, "FAIL");
@@ -219,7 +219,7 @@ public class TransactionalEventListenerTests {
 			fail("Should have thrown an exception");
 		}
 		catch (IllegalStateException e) {
-			// Test exception - ignore
+			// com.Test exception - ignore
 		}
 		getEventCollector().assertNoEventReceived(); // Before commit not invoked
 	}
@@ -418,7 +418,7 @@ public class TransactionalEventListenerTests {
 		public void handleEvent(String phase, String data) {
 			this.eventCollector.addEvent(phase, data);
 			if (FAIL_MSG.equals(data)) {
-				throw new IllegalStateException("Test exception on phase '" + phase + "'");
+				throw new IllegalStateException("com.Test exception on phase '" + phase + "'");
 			}
 		}
 	}

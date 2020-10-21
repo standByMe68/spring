@@ -23,7 +23,7 @@ import org.junit.Test;
 import static org.junit.Assert.*;
 
 /**
- * Test for static utility to help with serialization.
+ * com.Test for static utility to help with serialization.
  *
  * @author Dave Syer
  * @since 3.0.5

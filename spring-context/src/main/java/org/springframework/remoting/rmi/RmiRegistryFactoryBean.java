@@ -272,7 +272,7 @@ public class RmiRegistryFactoryBean implements FactoryBean<Registry>, Initializi
 	}
 
 	/**
-	 * Test the given RMI registry, calling some operation on it to
+	 * com.Test the given RMI registry, calling some operation on it to
 	 * check whether it is still active.
 	 * <p>Default implementation calls {@code Registry.list()}.
 	 * @param registry the RMI registry to test

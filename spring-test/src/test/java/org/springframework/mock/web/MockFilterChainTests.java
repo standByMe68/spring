@@ -34,7 +34,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link MockFilterChain}.
+ * com.Test fixture for {@link MockFilterChain}.
  *
  * @author Rob Winch
  */

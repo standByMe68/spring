@@ -47,7 +47,7 @@ import org.springframework.web.servlet.DispatcherServlet;
 import static org.junit.Assert.*;
 
 /**
- * Test case for {@link AbstractAnnotationConfigDispatcherServletInitializer}.
+ * com.Test case for {@link AbstractAnnotationConfigDispatcherServletInitializer}.
  *
  * @author Arjen Poutsma
  */

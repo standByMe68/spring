@@ -35,7 +35,7 @@ import static org.junit.Assert.*;
 import static org.mockito.BDDMockito.*;
 
 /**
- * Test fixture for {@link SubProtocolWebSocketHandler}.
+ * com.Test fixture for {@link SubProtocolWebSocketHandler}.
  *
  * @author Rossen Stoyanchev
  * @author Andy Wilkinson

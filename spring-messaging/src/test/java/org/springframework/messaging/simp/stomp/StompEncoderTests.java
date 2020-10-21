@@ -25,7 +25,7 @@ import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
 
 /**
- * Test fixture for {@link StompEncoder}.
+ * com.Test fixture for {@link StompEncoder}.
  *
  * @author Andy Wilkinson
  * @author Stephane Maldini

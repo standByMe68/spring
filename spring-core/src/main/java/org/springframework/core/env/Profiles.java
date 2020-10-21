@@ -32,7 +32,7 @@ import java.util.function.Predicate;
 public interface Profiles {
 
 	/**
-	 * Test if this {@code Profiles} instance <em>matches</em> against the given
+	 * com.Test if this {@code Profiles} instance <em>matches</em> against the given
 	 * active profiles predicate.
 	 * @param activeProfiles predicate that tests whether a given profile is
 	 * currently active

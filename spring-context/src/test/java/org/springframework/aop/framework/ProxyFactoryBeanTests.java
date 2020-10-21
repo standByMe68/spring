@@ -125,7 +125,7 @@ public class ProxyFactoryBeanTests {
 	}
 
 	/**
-	 * Test that it's forbidden to specify TargetSource in both
+	 * com.Test that it's forbidden to specify TargetSource in both
 	 * interceptor chain and targetSource property.
 	 */
 	@Test
@@ -288,7 +288,7 @@ public class ProxyFactoryBeanTests {
 	}
 
 	/**
-	 * Test invoker is automatically added to manipulate target.
+	 * com.Test invoker is automatically added to manipulate target.
 	 */
 	@Test
 	public void testAutoInvoker() {
@@ -336,7 +336,7 @@ public class ProxyFactoryBeanTests {
 	}
 
 	/**
-	 * Test that inner bean for target means that we can use
+	 * com.Test that inner bean for target means that we can use
 	 * autowire without ambiguity from target and proxy
 	 */
 	@Test
@@ -484,7 +484,7 @@ public class ProxyFactoryBeanTests {
 	// These two fail the whole bean factory
 	// TODO put in sep file to check quality of error message
 	/*
-	@Test
+	@com.Test
 	public void testNoInterceptorNamesWithoutTarget() {
 		try {
 			ITestBean tb = (ITestBean) factory.getBean("noInterceptorNamesWithoutTarget");
@@ -495,7 +495,7 @@ public class ProxyFactoryBeanTests {
 		}
 	}
 
-	@Test
+	@com.Test
 	public void testNoInterceptorNamesWithTarget() {
 		ITestBean tb = (ITestBean) factory.getBean("noInterceptorNamesWithoutTarget");
 	}

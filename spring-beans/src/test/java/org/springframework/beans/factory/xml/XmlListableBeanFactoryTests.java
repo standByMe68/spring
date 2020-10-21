@@ -127,7 +127,7 @@ public class XmlListableBeanFactoryTests extends AbstractListableBeanFactoryTest
 	}
 
 	/**
-	 * Test that properties with name as well as id creating an alias up front.
+	 * com.Test that properties with name as well as id creating an alias up front.
 	 */
 	@Test
 	public void autoAliasing() {

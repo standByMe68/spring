@@ -28,7 +28,7 @@ import org.springframework.lang.Nullable;
 final class TransactionContextHolder {
 
 	private static final ThreadLocal<TransactionContext> currentTransactionContext =
-			new NamedInheritableThreadLocal<>("Test Transaction Context");
+			new NamedInheritableThreadLocal<>("com.Test Transaction Context");
 
 
 	private TransactionContextHolder() {

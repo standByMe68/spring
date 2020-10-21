@@ -34,7 +34,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 /**
- * Test suite for {@link ProtobufJsonFormatHttpMessageConverter}.
+ * com.Test suite for {@link ProtobufJsonFormatHttpMessageConverter}.
  *
  * @author Juergen Hoeller
  * @author Sebastien Deleuze

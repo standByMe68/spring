@@ -80,7 +80,7 @@ public class FrameworkExtensionTests {
 
 
 	/**
-	 * Test {@code RequestPostProcessor}.
+	 * com.Test {@code RequestPostProcessor}.
 	 */
 	private static class TestRequestPostProcessor implements RequestPostProcessor {
 
@@ -108,7 +108,7 @@ public class FrameworkExtensionTests {
 
 
 	/**
-	 * Test {@code MockMvcConfigurer}.
+	 * com.Test {@code MockMvcConfigurer}.
 	 */
 	private static class TestMockMvcConfigurer extends MockMvcConfigurerAdapter {
 

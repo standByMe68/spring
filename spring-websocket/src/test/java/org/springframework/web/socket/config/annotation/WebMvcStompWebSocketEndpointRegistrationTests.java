@@ -43,7 +43,7 @@ import static org.junit.Assert.*;
 import static org.mockito.Mockito.*;
 
 /**
- * Test fixture for
+ * com.Test fixture for
  * {@link org.springframework.web.socket.config.annotation.WebMvcStompWebSocketEndpointRegistration}.
  *
  * @author Rossen Stoyanchev

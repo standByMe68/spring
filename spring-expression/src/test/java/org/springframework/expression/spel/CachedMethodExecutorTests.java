@@ -27,7 +27,7 @@ import org.springframework.expression.spel.support.StandardEvaluationContext;
 import static org.junit.Assert.*;
 
 /**
- * Test for caching in {@link MethodReference} (SPR-10657).
+ * com.Test for caching in {@link MethodReference} (SPR-10657).
  *
  * @author Oliver Becker
  */

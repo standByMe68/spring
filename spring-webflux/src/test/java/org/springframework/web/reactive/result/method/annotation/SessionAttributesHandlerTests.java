@@ -31,7 +31,7 @@ import static java.util.Arrays.*;
 import static org.junit.Assert.*;
 
 /**
- * Test fixture with {@link SessionAttributesHandler}.
+ * com.Test fixture with {@link SessionAttributesHandler}.
  * @author Rossen Stoyanchev
  */
 public class SessionAttributesHandlerTests {

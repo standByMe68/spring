@@ -58,7 +58,7 @@ import org.springframework.web.util.UriComponentsBuilder;
 
 /**
  * Internal class used to transform a {@link WebRequest} into a
- * {@link MockHttpServletRequest} using Spring MVC Test's {@link RequestBuilder}.
+ * {@link MockHttpServletRequest} using Spring MVC com.Test's {@link RequestBuilder}.
  *
  * <p>By default the first path segment of the URL is used as the context path.
  * To override this default see {@link #setContextPath(String)}.

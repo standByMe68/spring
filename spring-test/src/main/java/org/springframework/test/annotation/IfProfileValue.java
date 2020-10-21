@@ -24,7 +24,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * Test annotation to indicate whether a test is enabled or disabled for a
+ * com.Test annotation to indicate whether a test is enabled or disabled for a
  * specific testing profile.
  *
  * <p>In the context of this annotation, the term <em>profile</em> refers to
